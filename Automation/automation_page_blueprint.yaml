@@ -7,11 +7,12 @@ blueprint:
   description: Automation Page by Bourner
   name: Automation Page Blueprint
   type: page
-  version: 1.0.1
+  version: 1.1.0
 card:
   cards:
+  - type: custom:search-card
   - card:
-      items_classes: col-xs-12 col-sm-6 col-md-3 col-lg-3
+      items_classes: col-xs-12 col-sm-6 col-md-2 col-lg-2
       padding: true
       type: custom:dwains-flexbox-card
     filter:
@@ -85,5 +86,4 @@ card:
     - switch
     - vacuum
     type: custom:scheduler-card
-  - type: custom:search-card
   type: vertical-stack
