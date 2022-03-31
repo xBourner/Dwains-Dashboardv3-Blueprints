@@ -53,7 +53,7 @@ card:
         - grid-template-rows: min-content
         icon:
         - width: 55%
-        - color: var(--primary-color)
+        - color: var(--primary-text-color)
         img_cell:
         - width: 45px
         - height: 45px
@@ -95,7 +95,7 @@ card:
         - grid-template-rows: min-content
         icon:
         - width: 55%
-        - color: var(--primary-color)
+        - color: var(--primary-text-color)
         img_cell:
         - width: 45px
         - height: 45px
