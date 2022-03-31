@@ -7,7 +7,7 @@ blueprint:
   description: Automation Page by Bourner
   name: Automation Page Blueprint
   type: page
-  version: 1.0
+  version: 1.0.1
 card:
   cards:
   - card:
@@ -27,7 +27,7 @@ card:
           state:
           - icon: mdi:toggle-switch
             value: 'on'
-          - icon: mdi:toggle-switch-off-outline
+          - icon: mdi:toggle-switch-outline
             styles:
               icon:
               - color: '#6c6c75'
@@ -66,6 +66,10 @@ card:
             - font-size: 13px
             - color: var(--disabled-text-color)
           type: custom:button-card
+    sort:
+      exclude: []
+      ignore_case: true
+      method: name
     type: custom:auto-entities
   - exclude: []
     include:
