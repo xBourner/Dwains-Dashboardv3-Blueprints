@@ -25,6 +25,7 @@
 ---
 
 This is a Blueprint for adding a card which fits into DD3 Design.
+You can add your own entities to a room. 
 
 ### Screenshots:
 ![image](https://user-images.githubusercontent.com/64064679/161117457-4e2a7e10-88d0-4a55-844c-16eb0c998b34.png)
