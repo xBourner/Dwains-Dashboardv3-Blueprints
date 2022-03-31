@@ -4,6 +4,10 @@
 ---
 
 
+### HACS components
+
+- Install [card-mod](https://github.com/thomasloven/lovelace-card-mod) from [HACS](https://hacs.xyz).
+
 ### Installation: 
   
 1.  Go to More Page on DD3
