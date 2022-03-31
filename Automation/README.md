@@ -23,7 +23,7 @@
 This is a Blueprint for automations.
 
 ### Screenshots:
-![image](https://user-images.githubusercontent.com/64064679/160692779-a27c0a8b-953b-4b95-9c2b-dee40a161d9c.png)
+![image](https://user-images.githubusercontent.com/64064679/161023068-fb865b36-7cb8-4b76-b515-14eafbd903ed.png)
 
 
 
@@ -32,4 +32,6 @@ This is a Blueprint for automations.
 - First release
 #### 1.0.1
 - Added alphabetical sorting
+#### 1.1.0
+- Changed Layout
 
