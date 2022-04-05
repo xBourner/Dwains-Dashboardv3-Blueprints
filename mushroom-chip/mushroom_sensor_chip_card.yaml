@@ -13,7 +13,7 @@ blueprint:
       name: Name      
   name: Sensor Mushroom Chip Card
   type: card
-  version: '1.0'
+  version: '1.0.1'
 card:
   chips:
   - chip:
