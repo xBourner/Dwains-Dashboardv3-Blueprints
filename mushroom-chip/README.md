@@ -36,5 +36,7 @@ When you add the code. The sensors will always show on top of your room page.
 ### Changelog
 #### 1.0.0
 - First release
+#### 1.0.0
+- Added name text-field
 
 
