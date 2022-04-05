@@ -30,7 +30,7 @@ This is made to show certain sensors when the state is not "off".
 When you add the code. The sensors will always show on top of your room page.
 
 ### Screenshots:
-![image](https://user-images.githubusercontent.com/64064679/161817042-f5c88c23-49a0-422c-8f6a-52d8d2f45365.png)
+![image](https://user-images.githubusercontent.com/64064679/161814863-3d5eb47c-4bb4-4954-9149-5d51191fa1bf.png)
 
 
 ### Changelog
