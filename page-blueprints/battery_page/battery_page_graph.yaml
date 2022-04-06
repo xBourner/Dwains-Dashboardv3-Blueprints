@@ -2,7 +2,7 @@ blueprint:
   custom_cards:
   - button-card
   - auto-entities
-  description: Battery page Graph by Bourner
+  description: Battery page with graphs by Bourner
   name: Battery Page Graph Blueprint
   type: page
   version: '1.0'
