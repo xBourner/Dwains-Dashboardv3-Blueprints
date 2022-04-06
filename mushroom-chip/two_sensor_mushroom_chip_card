@@ -1,0 +1,47 @@
+blueprint:
+  custom_cards:
+  - mushroom-chips-card
+  description: adds two motion/window/door sensors with mushroom chip card by Bourner
+  input:
+    entity: 
+      description: Choose entity
+      type: entity-picker
+      name: Entity
+    name: 
+      description: Choose name of entity
+      type: text-field
+      name: 
+    entity2: 
+      description: Choose entity
+      type: entity-picker
+      name: Entity
+    name2: 
+      description: Choose name of entity
+      type: text-field     
+      name:         
+  name: Two Sensor Mushroom Chip Card
+  type: card
+  version: '1.0'
+card:
+  cards:
+    - chips:
+        - chip:
+            content_info: name
+            entity: binary_sensor.presence_81
+            type: entity
+          conditions:
+            - entity: binary_sensor.presence_81
+              state_not: 'off'
+          type: conditional
+      type: custom:mushroom-chips-card
+    - chips:
+        - chip:
+            content_info: name
+            entity: binary_sensor.fenstersensor_buro
+            type: entity
+          conditions:
+            - entity: binary_sensor.fenstersensor_buro
+              state_not: 'off'
+          type: conditional
+      type: custom:mushroom-chips-card
+  type: custom:dwains-flexbox-card
