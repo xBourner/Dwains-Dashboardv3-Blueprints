@@ -32,6 +32,11 @@ When you add the code. The sensors will always show on top of your room page.
 ### Screenshots:
 ![image](https://user-images.githubusercontent.com/64064679/161814863-3d5eb47c-4bb4-4954-9149-5d51191fa1bf.png)
 
+![image](https://user-images.githubusercontent.com/64064679/161924507-aaaddd17-79f8-49c3-a3ba-4c81666f5c63.png)
+
+![image](https://user-images.githubusercontent.com/64064679/161924197-bb28edc9-1cc8-480e-a22b-a11062ee919d.png)
+
+
 
 ### Changelog
 #### 1.0.0
