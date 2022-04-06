@@ -2,8 +2,8 @@ blueprint:
   custom_cards:
   - button-card
   - auto-entities
-  description: Color Battery page by Bourner
-  name: Color Battery Page Blueprint
+  description: Battery Page with colored Icons by Bourner
+  name: Battery Page Color Blueprint
   type: page
   version: '1.0'
 card:
