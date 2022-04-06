@@ -1,6 +1,6 @@
 blueprint:
   custom_cards:
-  - mushroom-light-card
+  - mushroom-chips-card
   description: adds motion/window/door sensors with mushroom chip card by Bourner
   input:
     entity: 
