@@ -21,7 +21,7 @@ blueprint:
       name:         
   name: Mushroom Chip Card for two sensors
   type: card
-  version: '1.0'
+  version: '1.0.1'
 card:
   cards:
     - chips:
