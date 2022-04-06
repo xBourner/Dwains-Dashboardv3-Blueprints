@@ -26,7 +26,7 @@ blueprint:
       name: 'Select 2nd Entity Name'
       type: text-field 		  
   type: card
-  version: "1.0"
+  version: '1.0'
 card:
   cards:
   - card_mod:
