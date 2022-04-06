@@ -27,20 +27,22 @@ card:
     - chips:
         - chip:
             content_info: name
-            entity: binary_sensor.presence_81
+            name: $name$
+            entity: $entity$
             type: entity
           conditions:
-            - entity: binary_sensor.presence_81
+            - entity: $entity$
               state_not: 'off'
           type: conditional
       type: custom:mushroom-chips-card
     - chips:
         - chip:
             content_info: name
-            entity: binary_sensor.fenstersensor_buro
+            name: $name$
+            entity: $entity2$
             type: entity
           conditions:
-            - entity: binary_sensor.fenstersensor_buro
+            - entity: $entity2$
               state_not: 'off'
           type: conditional
       type: custom:mushroom-chips-card
