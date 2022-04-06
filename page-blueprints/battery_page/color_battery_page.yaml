@@ -5,7 +5,7 @@ blueprint:
   description: Color Battery page by Bourner
   name: Color Battery Page Blueprint
   type: page
-  version: 1
+  version: "1.0"
 card:
   cards:
   - card:
