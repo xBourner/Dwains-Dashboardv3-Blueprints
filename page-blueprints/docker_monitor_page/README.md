@@ -28,6 +28,8 @@ This will automatically pull all your docker containers and show them in a dd3 p
 
 ### Screenshots:
 
+![image](https://user-images.githubusercontent.com/64064679/162574406-7ea6481a-e592-4a03-bc9b-c368b35bd880.png)
+
 ![image](https://user-images.githubusercontent.com/64064679/159971307-11256a91-deef-42ea-a5fb-abf3168dbfb4.png)
 
 ![image](https://user-images.githubusercontent.com/64064679/159971193-1a4feca5-3ce2-4aa5-b5d3-e413ac22dda6.png)
