@@ -145,39 +145,33 @@ card:
               \ 'memory')].state} MB`\n]]]\n"
             name: "[[[\n  return `${entity.attributes.friendly_name.replace(' State',\
               \ '')}`\n]]]\n"
-            nw_down: "[[[\n  if (states[entity.entity_id.replace('state', 'network_speed_down')]\
-              \ == undefined)\n    return \n  else\n  return `<ha-icon\n    icon=\"\
-              mdi:download\"\n    style=\"width: 24px; height: 24px; color: var(--primary-color);\
-              \ padding-left:20px; padding-right:20px;\">\n    </ha-icon>Down Link`\n\
-              ]]]\n"
+            nw_down: "[[[\n  return `<ha-icon\n    icon=\"mdi:download\"\n    style=\"\
+              width: 24px; height: 24px; color: var(--primary-color); padding-left:20px;\
+              \ padding-right:20px;\">\n    </ha-icon>Down Link`\n]]]\n"
             nw_down_value: "[[[\n  if (states[entity.entity_id.replace('state', 'network_speed_down')]\
-              \ == undefined)\n    return \n  else\n  return `${states[entity.entity_id.replace('state',\
+              \ == undefined)\n    return 'n.A.'\n  else\n  return `${states[entity.entity_id.replace('state',\
               \ 'network_speed_down')].state}`\n]]]\n"
-            nw_total_down: "[[[\n  if (states[entity.entity_id.replace('state', 'network_total_up')]\
-              \ == undefined)\n    return \n  else\n  return `<ha-icon\n    icon=\"\
-              mdi:download-multiple\"\n    style=\"width: 24px; height: 24px; color:\
-              \ var(--primary-color); padding-left:20px; padding-right:20px;\">\n\
-              \    </ha-icon>Total Down Link`\n]]]\n"
+            nw_total_down: "[[[\n  return `<ha-icon\n    icon=\"mdi:download-multiple\"\
+              \n    style=\"width: 24px; height: 24px; color: var(--primary-color);\
+              \ padding-left:20px; padding-right:20px;\">\n    </ha-icon>Total Down\
+              \ Link`\n]]]\n"
             nw_total_down_value: "[[[\n  if (states[entity.entity_id.replace('state',\
-              \ 'network_total_down')] == undefined)\n    return \n  else\n  return\
-              \ `${states[entity.entity_id.replace('state', 'network_total_down')].state}`\n\
+              \ 'network_total_down')] == undefined)\n    return 'n.A.'\n  else\n\
+              \  return `${states[entity.entity_id.replace('state', 'network_total_down')].state}`\n\
               ]]]\n"
-            nw_total_up: "[[[\n  if (states[entity.entity_id.replace('state', 'network_total_up')]\
-              \ == undefined)\n    return \n  else\n  return `<ha-icon\n    icon=\"\
-              mdi:upload-multiple\"\n    style=\"width: 24px; height: 24px; color:\
-              \ var(--primary-color); padding-left:20px; padding-right:20px;\">\n\
-              \    </ha-icon>Total Up Link`\n]]]\n"
+            nw_total_up: "[[[\n  return `<ha-icon\n    icon=\"mdi:upload-multiple\"\
+              \n    style=\"width: 24px; height: 24px; color: var(--primary-color);\
+              \ padding-left:20px; padding-right:20px;\">\n    </ha-icon>Total Up\
+              \ Link`\n]]]\n"
             nw_total_up_value: "[[[\n  if (states[entity.entity_id.replace('state',\
-              \ 'network_total_up')] == undefined)\n    return \n  else\n  return\
+              \ 'network_total_up')] == undefined)\n    return 'n.A.'\n  else\n  return\
               \ `${states[entity.entity_id.replace('state', 'network_total_up')].state}`\n\
               ]]]\n"
-            nw_up: "[[[\n  if (states[entity.entity_id.replace('state', 'network_speed_up')]\
-              \ == undefined)\n    return \n  else\n  return `<ha-icon\n    icon=\"\
-              mdi:upload\"\n    style=\"width: 24px; height: 24px; color: var(--primary-color);\
-              \ padding-left:20px; padding-right:20px;\">\n    </ha-icon>Up Link`\n\
-              ]]]\n"
+            nw_up: "[[[\n  return `<ha-icon\n    icon=\"mdi:upload\"\n    style=\"\
+              width: 24px; height: 24px; color: var(--primary-color); padding-left:20px;\
+              \ padding-right:20px;\">\n    </ha-icon>Up Link`\n]]]\n"
             nw_up_value: "[[[\n  if (states[entity.entity_id.replace('state', 'network_speed_up')]\
-              \ == undefined)\n    return \n  else\n  return `${states[entity.entity_id.replace('state',\
+              \ == undefined)\n    return 'n.A.'\n  else\n  return `${states[entity.entity_id.replace('state',\
               \ 'network_speed_up')].state}`\n]]]\n"
             state: "[[[\n  return `<ha-icon\n    icon=\"mdi:checkbox-marked-circle-outline\"\
               \n    style=\"width: 24px; height: 24px; color: var(--primary-color);\
@@ -261,6 +255,8 @@ card:
             - grid-template-areas: '"name name" "state state_value" "up up_value"
                 "cpu cpu_value"  "mem mem_value" "nw_up nw_up_value" "nw_down nw_down_value"
                 "nw_total_up nw_total_up_value" "nw_total_down nw_total_down_value"'
+            icon:
+            - color: red
           triggers_update: all
           type: custom:button-card
     type: custom:auto-entities
