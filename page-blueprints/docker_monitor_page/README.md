@@ -24,6 +24,7 @@
 ---
 
 This is a Blueprint for Docker Monitor.
+This will automatically pull all your docker containers and show them in a dd3 page.
 
 ### Screenshots:
 
@@ -34,3 +35,5 @@ This is a Blueprint for Docker Monitor.
 ### Changelog
 #### 1.0.0
 - First release
+#### 2.0.0
+- Changed working behaviour to auto-entities-card
