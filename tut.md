@@ -1,6 +1,8 @@
 [< Go back to Home](../index.md)
 
 # What are Dwains Dashboard blueprints?
+## What are Dwains Dashboard blueprints?
+### What are Dwains Dashboard blueprints?
 
 Dwains Dashboard blueprints are pre-made pages or cards that you can easily add to your Home Assistant instance. Each blueprint can be added as many times as you want.
 
