@@ -13,7 +13,7 @@
 You can select all conditions and containers but at least you need these as minimum config.
 You can also rename your containers to have you own name otherwise the default docker name is chosen. 
 
-'''
+```
 - monitor_docker:
   - name: Docker
     url: tcp://127.0.0.1:2375
@@ -34,7 +34,7 @@ You can also rename your containers to have you own name otherwise the default d
       - network_total_down
       - network_speed_up
       - network_speed_down 
-'''
+´´´
 
 ### Installation: 
   
