@@ -6,7 +6,7 @@ Dwains Dashboard blueprints are pre-made pages or cards that you can easily add 
 
 Quick links:
 
-[link]https://github.com/dwainscheeren/dwains-dashboard-blueprints
+[Dwains Dashboard Blueprints](https://github.com/dwainscheeren/dwains-dashboard-blueprints)
 
 # Importing Blueprints
 
