@@ -13,7 +13,7 @@ Quick links:
 
 You always gonna start with the header of a blueprint which looks like this.
 
-````
+````yaml
 blueprint:
   custom_cards:
   - button-card
