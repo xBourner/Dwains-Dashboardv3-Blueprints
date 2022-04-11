@@ -6,6 +6,33 @@
 ### HACS components
 
 - Install [simpleicons](https://github.com/vigonotion/hass-simpleicons) from [HACS](https://hacs.xyz).
+- Install [Monitor-Docker](https://github.com/ualex73/monitor_docker) from [HACS](https://hacs.xyz).
+
+### Configuration
+
+You can select all conditions and containers but at least you need these as minimum config.
+You can also rename your containers to have you own name otherwise the default docker name is chosen. 
+
+- monitor_docker:
+  - name: Docker
+    url: tcp://127.0.0.1:2375
+    rename:
+      portainer: Portainer
+      npm_app_1: 'Nginx Proxy App'
+    monitored_conditions:
+      - containers_running
+      - containers_total
+      - containers_paused
+      - containers_stopped
+      - state
+      - status
+      - memory
+      - cpu_percentage
+      - uptime
+      - network_total_up
+      - network_total_down
+      - network_speed_up
+      - network_speed_down 
 
 ### Installation: 
   
@@ -37,3 +64,5 @@ This will automatically pull all your docker containers and show them in a dd3 p
 - First release
 #### 2.0.0
 - Changed working behaviour to auto-entities-card
+#### 2.1.0
+- Added units
