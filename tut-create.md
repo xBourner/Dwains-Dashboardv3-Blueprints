@@ -30,3 +30,16 @@ card:
 
 Then you can follow with your YAML Code. 
 
+## Configuration variables
+
+All the options are available in the lovelace editor but you can use `yaml` if you want.
+
+| Name                | Type    | Default                        | Description                                                               |
+| :------------------ | :------ | :----------------------------- | :------------------------------------------------------------------------ |
+| `custom_cards`      | string  | Optional                       | Used custom cards which were used. Will show in blueprint overview.       |
+| `description`       | string  | Optional                       | adds a description to blueprint overview                                  |
+| `input`             | string  | Optional                       | define input fields                                                       |
+| `name`              | string  | Optional                       | Choose name of blueprint                                                  |
+| `type`              | string  | Optional                       | defines type of blueprint page/card                                       |
+| `version`           | string  | Optional                       | defines version of blueprints in blueprint overview                       |
+
