@@ -54,3 +54,15 @@ card:
 | `type`              | string  | Optional        | card/page                                 |  defines type of blueprint                                                 |
 | `version`           | string  | Optional        | any version number                        |  defines version of blueprints in blueprint overview                       |
 
+## Special Features
+
+There is a replace card which replaces an existing card of an entity. These is helpful for cards which are auto created by DD3.
+You can easily change the entity card with using a replace card blueprint.
+
+The only thing you need to add/change in your blueprint is the entity. The entity has to be $replace_with_input_entity$
+You don't have to specifiy the entity anymore.
+
+````yaml
+card:
+  entity: $replace_with_input_entity$
+````
