@@ -44,7 +44,6 @@ card:
 
 ## Configuration variables
 
-All the options are available in the lovelace editor but you can use `yaml` if you want.
 
 | Name                | Type    | Default         | Options                                   | Description                                                                |
 | :------------------ | :------ | :---------------| :---------------------------              | :------------------------------------------------------------------------  |
