@@ -113,7 +113,7 @@ From here you can change the size of the card and name of the entity.
 ## How to change the card of an entity?
 
 Go into Edit Mode and select the entity you want to change. Click on Entity card.
-<br>![image](https://user-images.githubusercontent.com/64064679/163053877-275f5d6e-849f-4874-bdd4-b95a3235a0f1.png)
+<br>![image](https://user-images.githubusercontent.com/64064679/163055802-0b8dd8e2-75b4-45e9-be44-f295a5672a46.png)
 
 Here you can choose between a custom card or default HA card. You can also use DD3 Card Blueprints here.
 <br>![image](https://user-images.githubusercontent.com/64064679/163054213-d701e026-a4e2-423b-ba67-dcdbac91a3d5.png)
