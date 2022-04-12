@@ -67,4 +67,6 @@ card:
   entity: $replace_with_input_entity$
 ````
 
-This page is written by @github/xBourner
+## Credits
+
+This page is written by [xBourner](https://github.com/xbourner)
