@@ -55,6 +55,34 @@ card:
 | `version`           | string  | Optional        | any version number                        |  defines version of blueprints in blueprint overview                       |
 
 ## Special Features
+### Using Variables
+
+You can use variables in your blueprint. With these everybody can use the blueprint and fill in their own names/icons/entities.
+<br>To use them in your blueprint you have so specify some inputs. Here is an example.
+<br>Define the variables in your input and call them in your blueprints with $xxx$.
+
+````yaml
+blueprint:
+  input:
+    entity:
+      description: choose entity
+      name: entity
+      type: entity-picker
+    icon:
+      description: description icon
+      name: icon
+      type: icon-picker  
+    entity_name:
+      description: name of entity
+      name: entity name
+      type: text-field      
+card:  
+  entity: $entity$
+  icon: $icon$
+  name: $entity_name$
+````
+
+### Replace Cards
 
 There is a replace card which replaces an existing card of an entity. This is helpful for cards which are auto created by DD3.
 You can easily change the entity card by using a replace card blueprint.
