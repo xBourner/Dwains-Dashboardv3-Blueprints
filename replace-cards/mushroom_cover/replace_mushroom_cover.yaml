@@ -7,7 +7,7 @@ blueprint:
   name: Replace Mushroom Cover Card
   type: card
   version: '1.0'
-  card:
+card:
     entity: $replace_with_input_entity$
     hide_state: false
     show_buttons_control: true
