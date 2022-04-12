@@ -65,7 +65,7 @@ Card type and look will be the same in favorites as in area/device view.
 ## How to set the order of areas?
 
 Go into Edit mode above areas. You can drag the areas with the cross.
-![image](https://user-images.githubusercontent.com/64064679/163052613-382588a7-b99e-4d6c-84d2-2b609af03940.png)
+<br>![image](https://user-images.githubusercontent.com/64064679/163052613-382588a7-b99e-4d6c-84d2-2b609af03940.png)
 
 
 ## How to add a startpage/homepage?
@@ -78,57 +78,57 @@ Add a new area with the name you want and drag it to the first place in area vie
 
 Go into Edit Mode.
 A new window will appear.
-![image](https://user-images.githubusercontent.com/64064679/163053052-fee1be4f-89c3-43e4-97e9-cdd826ea6d2a.png)
+<br>![image](https://user-images.githubusercontent.com/64064679/163053052-fee1be4f-89c3-43e4-97e9-cdd826ea6d2a.png)
 
 Click to add a card. 
 Here you can add a custom card, HA default cards with the first option Lovelace Card.
 You can also add blueprints from here.
-![image](https://user-images.githubusercontent.com/64064679/163053108-8c66682d-42ab-4bef-8045-c9bfa09a57f0.png)
+<br>![image](https://user-images.githubusercontent.com/64064679/163053108-8c66682d-42ab-4bef-8045-c9bfa09a57f0.png)
 
 
 ## How to change device icons?
 
 Go to device tab and go into Edit Mode.
-![image](https://user-images.githubusercontent.com/64064679/163053349-e3afa440-36a1-44fb-aa28-68b16fbc2b3f.png)
+<br>![image](https://user-images.githubusercontent.com/64064679/163053349-e3afa440-36a1-44fb-aa28-68b16fbc2b3f.png)
 Click on Edit and choose your icon.
 
 ## How to add more pages?
 
 Go to More Page. Click on the three dots. Then click on Create new more page.
-![image](https://user-images.githubusercontent.com/64064679/163053671-adde8e6b-2138-404b-9601-10dc85050398.png)
+<br>![image](https://user-images.githubusercontent.com/64064679/163053671-adde8e6b-2138-404b-9601-10dc85050398.png)
 
 From here you can add your own custom cards or default HA cards. You can also choose a DD3 Page Blueprint.
-![image](https://user-images.githubusercontent.com/64064679/163053806-5c8394ef-cdac-4507-9891-35dce2b1c10b.png)
+<br>![image](https://user-images.githubusercontent.com/64064679/163053806-5c8394ef-cdac-4507-9891-35dce2b1c10b.png)
 
 
 ## How to change entity settings?
 
 Go into Edit Mode and select the entity you want to change. Click on entity settings.
-![image](https://user-images.githubusercontent.com/64064679/163053877-275f5d6e-849f-4874-bdd4-b95a3235a0f1.png)
+<br>![image](https://user-images.githubusercontent.com/64064679/163053877-275f5d6e-849f-4874-bdd4-b95a3235a0f1.png)
 
 From here you can change the size of the card and name of the entity. 
-![image](https://user-images.githubusercontent.com/64064679/163054024-bd9ca170-7e9d-4089-94e3-7b7724ba7efb.png)
+<br>![image](https://user-images.githubusercontent.com/64064679/163054024-bd9ca170-7e9d-4089-94e3-7b7724ba7efb.png)
 
 
 ## How to change the card of an entity?
 
 Go into Edit Mode and select the entity you want to change. Click on Entity card.
-![image](https://user-images.githubusercontent.com/64064679/163053877-275f5d6e-849f-4874-bdd4-b95a3235a0f1.png)
+<br>![image](https://user-images.githubusercontent.com/64064679/163053877-275f5d6e-849f-4874-bdd4-b95a3235a0f1.png)
 
 Here you can choose between a custom card or default HA card. You can also use DD3 Card Blueprints here.
-![image](https://user-images.githubusercontent.com/64064679/163054213-d701e026-a4e2-423b-ba67-dcdbac91a3d5.png)
+<br>![image](https://user-images.githubusercontent.com/64064679/163054213-d701e026-a4e2-423b-ba67-dcdbac91a3d5.png)
 
 ## How to add pop-up cards?
 Go into Edit Mode and select the entity you want to change. Click on Popup card.
-![image](https://user-images.githubusercontent.com/64064679/163053877-275f5d6e-849f-4874-bdd4-b95a3235a0f1.png)
+<br>![image](https://user-images.githubusercontent.com/64064679/163053877-275f5d6e-849f-4874-bdd4-b95a3235a0f1.png)
 
 Here you can choose between a custom card or default HA card. You can also use DD3 Card Blueprints here.
-![image](https://user-images.githubusercontent.com/64064679/163054295-df3d75a6-a6a4-41fe-a6c4-0e00a67c3b36.png)
+<br>![image](https://user-images.githubusercontent.com/64064679/163054295-df3d75a6-a6a4-41fe-a6c4-0e00a67c3b36.png)
 
 
 ## How to hide/disable entities?
 Go into Edit Mode and select the entity you want to change. Click on hide/disable entity in DD.
-![image](https://user-images.githubusercontent.com/64064679/163053877-275f5d6e-849f-4874-bdd4-b95a3235a0f1.png)
+<br>![image](https://user-images.githubusercontent.com/64064679/163053877-275f5d6e-849f-4874-bdd4-b95a3235a0f1.png)
 
 Hidden or disabled entities will show on the bottom page when you are in edit mode.
 You can unhide or enable entities if you accidently disabled/hid them.
@@ -136,10 +136,10 @@ You can unhide or enable entities if you accidently disabled/hid them.
 ## How to change width of cards?
 
 Go into Edit Mode and select the entity you want to change. Click on entity settings or for custom cards click on Edit.
-![image](https://user-images.githubusercontent.com/64064679/163053877-275f5d6e-849f-4874-bdd4-b95a3235a0f1.png)
+<br>![image](https://user-images.githubusercontent.com/64064679/163053877-275f5d6e-849f-4874-bdd4-b95a3235a0f1.png)
 
 From here you can change the size of the card. 
-![image](https://user-images.githubusercontent.com/64064679/163054024-bd9ca170-7e9d-4089-94e3-7b7724ba7efb.png)
+<br>![image](https://user-images.githubusercontent.com/64064679/163054024-bd9ca170-7e9d-4089-94e3-7b7724ba7efb.png)
 
 Default size is for small devices like smartphones or tablets.
 
