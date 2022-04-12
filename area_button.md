@@ -53,6 +53,11 @@ Current supported languages are:
 
 ## How to add something to favorites?
 
+You can add entities to your favorites. 
+Go into Edit Mode.
+Choose the entity you want to make a favorite and click on three dots.
+Choose add to favorite. Card type and look will be the same in favorites as in area/device view.
+
 ## How to set the order of areas?
 
 ## How to add a startpage/homepage?
