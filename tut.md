@@ -35,6 +35,7 @@ The steps are ther same for every blueprint type.
 
 When there is a new version of the blueprint released you can simply follow the same steps as improting a blueprint.
 <br> The files will automatically change. After importing the new verison of the blueprint you need to apply it on the card/page where you are using the old version.
-Therefore you go into edit mode and edit the card/page. Wait a moment and the new version will be loaded. Then submit changes and the new blueprint is used.
+<br>Therefore you go into edit mode and edit the card/page. Wait a moment and the new version will be loaded. 
+<br> Then submit changes and the new blueprint is used.
 
 
