@@ -11,17 +11,17 @@ Quick links:
 
 ## Importing Blueprints
 
-- Search the blueprint repository for the blueprint you want to use and copy the YAML code.
-- Go into Edit Mode and add a new card/page.
-- Choose Dwains Dashboard Blueprint and paste the YAML Code into the code area on the bottom.
+1. Search the blueprint repository for the blueprint you want to use and copy the YAML code.
+2. Go into Edit Mode and add a new card/page.
+3. Choose Dwains Dashboard Blueprint and paste the YAML Code into the code area on the bottom.
 
 ## Using Blueprints
 After installing blueprints you can add your blueprints to your dashboards.
 
 There a 3 common blueprint types.
-1. Card Blueprints
-2. Page Blueprints
-3. Replace Card Blueprints
+- Card Blueprints
+- Page Blueprints
+- Replace Card Blueprints
 
 You can add card blueprints into areas (rooms), page blueprints into more pages and you can change the card type of an existing entity with a replace card.
 
