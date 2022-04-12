@@ -20,6 +20,7 @@ After installing blueprints you can add your blueprints to your dashboards.
 
 There a 3 common blueprint types. The main difference of these types is where you can use them.
 | Blueprint Type | Where to use |
+|--------------- |--------------------|
 | Card Blueprints | in areas (rooms) |
 | Page Blueprints | in more pages |
 | Replace Card Blueprints | on exitsing entities in areas/devices |
