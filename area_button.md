@@ -51,6 +51,29 @@ Current supported languages are:
 - german
 - swedish
 
+## How to add something to favorites?
+
+## How to set the order of areas?
+
+## How to add a startpage/homepage?
+
+## How to add custom cards?
+
+## How to change device icons?
+
+## How to add more pages?
+
+## How to change entity settings?
+
+## How to change the card of an entity?
+
+## How to add pop-up cards?
+
+## How to hide/disable entities?
+
+## How to change width of cards?
+
+
 ## Credits
 
 This page is written by [xBourner](https://github.com/xbourner)
