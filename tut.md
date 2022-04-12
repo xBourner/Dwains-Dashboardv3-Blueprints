@@ -28,8 +28,8 @@ There a 3 common blueprint types. The main difference of these types is where yo
 
 The steps are ther same for every blueprint type.
 
-Go into Edit Mode and add a new card/page.
-Choose Dwains Dashboard Blueprint and click on Use This Blueprint.
+1. Go into Edit Mode and add a new card/page.
+2. Choose Dwains Dashboard Blueprint and click on Use This Blueprint.
 
 ## Updating Blueprints
 
