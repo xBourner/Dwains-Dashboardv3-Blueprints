@@ -11,9 +11,9 @@ Quick links:
 
 ## Importing Blueprints
 
-Search the blueprint repository for the blueprint you want and copy the YAML code.
-Go into Edit Mode and add a new card/page.
-Choose Dwains Dashboard Blueprint and paste the YAML Code into the code area on the bottom.
+- Search the blueprint repository for the blueprint you want to use and copy the YAML code.
+- Go into Edit Mode and add a new card/page.
+- Choose Dwains Dashboard Blueprint and paste the YAML Code into the code area on the bottom.
 
 ## Using Blueprints
 After installing blueprints you can add your blueprints to your dashboards.
