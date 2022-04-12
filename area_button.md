@@ -41,6 +41,15 @@ Use the little gear icon above the header to get to Dwains Dashboard General Set
 Here you can choose weather and alarm entities. You can also enable/disable the clock.
 <br>![image](https://user-images.githubusercontent.com/64064679/163027703-cc160558-fc28-43a4-8a33-e798aaa5a19c.png)
 
+## How to change the language?
+
+There is no language settings. Translation are builtin and depend on your system language. So if you see the wrong language there is no translation for your language.
+Current supported languages are:
+- english
+- dutch
+- french
+- german
+- swedish
 
 ## Credits
 
