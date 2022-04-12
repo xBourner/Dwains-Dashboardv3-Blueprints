@@ -56,11 +56,11 @@ card:
 
 ## Special Features
 
-There is a replace card which replaces an existing card of an entity. These is helpful for cards which are auto created by DD3.
-You can easily change the entity card with using a replace card blueprint.
+There is a replace card which replaces an existing card of an entity. This is helpful for cards which are auto created by DD3.
+You can easily change the entity card by using a replace card blueprint.
 
 The only thing you need to add/change in your blueprint is the entity. The entity has to be $replace_with_input_entity$
-You don't have to specifiy the entity anymore.
+You don't have to specifiy the entity while using the blueprint.
 
 ````yaml
 card:
