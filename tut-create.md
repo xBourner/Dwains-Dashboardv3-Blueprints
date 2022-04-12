@@ -36,9 +36,9 @@ Tip: Create a new card in default Dashboards and copy the code after the bluepri
 
 ````yaml
 card:
-  type: custom:card
+  type: custom:button-card
   entity: $replace_with_input_entity$
-  name: $name$
+  name: $entity_name$
 ````
 
 
