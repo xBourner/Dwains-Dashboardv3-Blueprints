@@ -38,4 +38,6 @@ When there is a new version of the blueprint released you can simply follow the 
 <br>Therefore you go into edit mode and edit the card/page. Wait a moment and the new version will be loaded. 
 <br> Then submit changes and the new blueprint is used.
 
+## Credits
 
+This page is written by [xBourner](https://github.com/xbourner)
