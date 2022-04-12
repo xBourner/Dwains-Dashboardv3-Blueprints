@@ -88,9 +88,9 @@ You can also add blueprints from here.
 
 ## How to change device icons?
 
-Go to device tab and go into Edit Mode.
+Go to device tab and go into Edit Mode. Click on Edit and choose your icon.
 <br>![image](https://user-images.githubusercontent.com/64064679/163053349-e3afa440-36a1-44fb-aa28-68b16fbc2b3f.png)
-Click on Edit and choose your icon.
+
 
 ## How to add more pages?
 
