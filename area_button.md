@@ -120,7 +120,8 @@ Here you can choose between a custom card or default HA card. You can also use D
 
 ## How to add pop-up cards?
 Go into Edit Mode and select the entity you want to change. Click on Popup card.
-<br>![image](https://user-images.githubusercontent.com/64064679/163053877-275f5d6e-849f-4874-bdd4-b95a3235a0f1.png)
+<br>![image](https://user-images.githubusercontent.com/64064679/163055883-71087401-1f0c-4ca3-9c6c-a02ef57081ba.png)
+
 
 Here you can choose between a custom card or default HA card. You can also use DD3 Card Blueprints here.
 <br>![image](https://user-images.githubusercontent.com/64064679/163054295-df3d75a6-a6a4-41fe-a6c4-0e00a67c3b36.png)
