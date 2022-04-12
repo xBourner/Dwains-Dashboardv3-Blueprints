@@ -31,6 +31,17 @@ card:
 
 Then you can follow with your YAML Code. 
 
+Tip: Create a new card in default Dashboards and copy the code after the blueprint header. You need to add two spaces before your code. 
+So it looks like this:
+
+````yaml
+card:
+  type: custom:card
+  entity: $replace_with_input_entity$
+  name: $name$
+````
+
+
 ## Configuration variables
 
 All the options are available in the lovelace editor but you can use `yaml` if you want.
