@@ -10,3 +10,5 @@ blueprint:
 card:
   entity: $replace_with_input_entity$
   type: custom:mushroom-entity-card
+  tap_action:
+    action: toggle
