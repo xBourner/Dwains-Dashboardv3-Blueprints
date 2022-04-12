@@ -33,6 +33,14 @@ After this you can group by floor
 which will lead to this:
 <br>![image](https://user-images.githubusercontent.com/64064679/162940150-ac91eba9-7db3-4a18-88e4-1f09740150b7.png)
 
+## How to add weather/alarm/clock?
+
+Use the little gear icon above the header to get to Dwains Dashboard General Settings.
+![image](https://user-images.githubusercontent.com/64064679/163027605-2eb4b0a4-9ac2-4b3a-a768-d9cead3aac5d.png)
+
+Here you can choose weather and alarm entities. You can also enable/disable the clock.
+![image](https://user-images.githubusercontent.com/64064679/163027703-cc160558-fc28-43a4-8a33-e798aaa5a19c.png)
+
 
 ## Credits
 
