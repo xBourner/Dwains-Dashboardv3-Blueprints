@@ -8,7 +8,7 @@ To change the icon of an area go into Edit Mode by clicking the three dots above
 
 ![image](https://user-images.githubusercontent.com/64064679/162938511-d9c02d97-ff84-41a8-a7d7-10a8d4c3d1a3.png)
 
-There will appear a new row where you can edit areas. You can also drag the areas the way you want.
+A new row will appear where you can edit areas. You can also drag the areas the way you want.
 <br>![image](https://user-images.githubusercontent.com/64064679/162938642-8d77fbbb-46c5-44f6-8179-9bec5528ff05.png)
 
 While editing you get a pop-up which let you choose the icon and the floor.
