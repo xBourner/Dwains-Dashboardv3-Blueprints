@@ -104,7 +104,7 @@ From here you can add your own custom cards or default HA cards. You can also ch
 ## How to change entity settings?
 
 Go into Edit Mode and select the entity you want to change. Click on entity settings.
-<br>![image](https://user-images.githubusercontent.com/64064679/163053877-275f5d6e-849f-4874-bdd4-b95a3235a0f1.png)
+<br>![image](https://user-images.githubusercontent.com/64064679/163055733-a6eb0e28-efc3-4fc0-81ae-4c6b10409bec.png)
 
 From here you can change the size of the card and name of the entity. 
 <br>![image](https://user-images.githubusercontent.com/64064679/163054024-bd9ca170-7e9d-4089-94e3-7b7724ba7efb.png)
