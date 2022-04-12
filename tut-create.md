@@ -49,7 +49,7 @@ card:
 | :------------------ | :------ | :---------------| :---------------------------              | :------------------------------------------------------------------------  |
 | `custom_cards`      | string  | Optional        | any custom card                           |  Used custom cards which were used. Will show in blueprint overview.       |
 | `description`       | string  | Optional        | any description                           |  adds a description to blueprint overview                                  |
-| `input`             | string  | Optional        | `entity-picker\| text-field\| icon-picker`  |  define input fields                                                       |
+| `input`             | string  | Optional        | `entity-picker \| text-field \| icon-picker`  |  define input fields                                                       |
 | `name`              | string  | Optional        | any name                                  |  Choose name of blueprint                                                  |
 | `type`              | string  | Optional        | card/page                                 |  defines type of blueprint                                                 |
 | `version`           | string  | Optional        | any version number                        |  defines version of blueprints in blueprint overview                       |
