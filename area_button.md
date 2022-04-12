@@ -129,7 +129,7 @@ Here you can choose between a custom card or default HA card. You can also use D
 
 ## How to hide/disable entities?
 Go into Edit Mode and select the entity you want to change. Click on hide/disable entity in DD.
-<br>![image](https://user-images.githubusercontent.com/64064679/163053877-275f5d6e-849f-4874-bdd4-b95a3235a0f1.png)
+<br>![image](https://user-images.githubusercontent.com/64064679/163055979-df7511c4-aa08-4f48-8988-907d614baa8c.png)
 
 Hidden or disabled entities will show on the bottom page when you are in edit mode.
 You can unhide or enable entities if you accidently disabled/hid them.
@@ -137,7 +137,7 @@ You can unhide or enable entities if you accidently disabled/hid them.
 ## How to change width of cards?
 
 Go into Edit Mode and select the entity you want to change. Click on entity settings or for custom cards click on Edit.
-<br>![image](https://user-images.githubusercontent.com/64064679/163053877-275f5d6e-849f-4874-bdd4-b95a3235a0f1.png)
+<br>![image](https://user-images.githubusercontent.com/64064679/163055733-a6eb0e28-efc3-4fc0-81ae-4c6b10409bec.png)
 
 From here you can change the size of the card. 
 <br>![image](https://user-images.githubusercontent.com/64064679/163054024-bd9ca170-7e9d-4089-94e3-7b7724ba7efb.png)
