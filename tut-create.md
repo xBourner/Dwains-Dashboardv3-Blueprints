@@ -66,3 +66,5 @@ You don't have to specifiy the entity while using the blueprint.
 card:
   entity: $replace_with_input_entity$
 ````
+
+This page is written by @xBourner
