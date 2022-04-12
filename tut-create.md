@@ -32,7 +32,7 @@ card:
 Then you can follow with your YAML Code. 
 
 Tip: Create a new card in default Dashboards and copy the code after the blueprint header. You need to add two spaces before your code. 
-So it looks like this:
+<br> So it looks like this:
 
 ````yaml
 card:
