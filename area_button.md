@@ -56,9 +56,9 @@ Current supported languages are:
 You can add entities to your favorites. 
 Go into Edit Mode.
 Choose the entity you want to make a favorite and click on three dots.
-Choose add to favorite. 
+Choose add to favorites. 
 
-<br>![image](https://user-images.githubusercontent.com/64064679/163052472-ba06dfae-a6bf-4889-b4af-9267c9765414.png)
+<br>![image](https://user-images.githubusercontent.com/64064679/163055549-5c51acae-4d51-4e7e-9de3-51377e67fc3b.png)
 
 Card type and look will be the same in favorites as in area/device view.
 
