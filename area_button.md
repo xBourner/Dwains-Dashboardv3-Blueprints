@@ -118,13 +118,24 @@ Go into Edit Mode and select the entity you want to change. Click on Entity card
 Here you can choose between a custom card or default HA card. You can also use DD3 Card Blueprints here.
 <br>![image](https://user-images.githubusercontent.com/64064679/163054213-d701e026-a4e2-423b-ba67-dcdbac91a3d5.png)
 
+From here you can easily change the card type. So in just four clicks you can go from this:
+<br>![image](https://user-images.githubusercontent.com/64064679/163204028-f58c23ad-2aa2-4361-ae6d-d983e0cf21c4.png)
+
+<br>to this:
+<br>![image](https://user-images.githubusercontent.com/64064679/163203907-7cf41a20-ba41-499a-9879-d6858e1bc745.png)
+
+The easiest way is to use a replace card blueprint but you can use every blueprint or card you want.
+
 ## How to add pop-up cards?
 Go into Edit Mode and select the entity you want to change. Click on Popup card.
 <br>![image](https://user-images.githubusercontent.com/64064679/163055883-71087401-1f0c-4ca3-9c6c-a02ef57081ba.png)
 
-
 Here you can choose between a custom card or default HA card. You can also use DD3 Card Blueprints here.
 <br>![image](https://user-images.githubusercontent.com/64064679/163054295-df3d75a6-a6a4-41fe-a6c4-0e00a67c3b36.png)
+
+The default popup is always the "more-info" view. But you can change it to show whatever you want. 
+For example you can add a popup card to your person entity. So clicking on your person entity can show something like this:
+<br>![image](https://user-images.githubusercontent.com/83040228/162289994-396f1dcf-de3a-4cf9-87cc-b1e0c545893d.jpeg)
 
 
 ## How to hide/disable entities?
@@ -146,6 +157,23 @@ From here you can change the size of the card.
 <br>![image](https://user-images.githubusercontent.com/64064679/163054024-bd9ca170-7e9d-4089-94e3-7b7724ba7efb.png)
 
 Default size is for small devices like smartphones or tablets.
+
+## How to change the device page?
+
+The device page shows all entity domains you have in your Home Assistant setup. You can drag the devices the way you want when you are in Edit Mode.
+From Edit Mode you can also change the icons or add it to the main navigation bar 
+<br>![image](https://user-images.githubusercontent.com/64064679/163205930-722775af-87c0-43e2-94ed-376b034d2754.png)
+
+You will see all devices of an entity domain (like media player or switch). You can group them by rooms if you want.
+You can also edit cards or blueprints into device views like you can do in areas.
+
+Hiding/Disabling works also from here because these states work for whole DD3. You can unhide/enable these entities from here, too.
+
+
+##FAQ
+
+Q: i dont see certain entities.
+A: make sure to put the entity into an area
 
 
 ## Credits
