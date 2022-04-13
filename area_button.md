@@ -134,6 +134,9 @@ Go into Edit Mode and select the entity you want to change. Click on hide/disabl
 Hidden or disabled entities will show on the bottom page when you are in edit mode.
 You can unhide or enable entities if you accidently disabled/hid them.
 
+The difference between hiding and disabling is that hidden entities are still used in DD3. For example if you hide temperature or humidity entities they still are used for temperature or humidity calculation. 
+Disabling this will completely disable the calculation and the entity wont show.
+
 ## How to change width of cards?
 
 Go into Edit Mode and select the entity you want to change. Click on entity settings or for custom cards click on Edit.
