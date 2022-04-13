@@ -121,7 +121,7 @@ Here you can choose between a custom card or default HA card. You can also use D
 From here you can easily change the card type. So in just four clicks you can go from this:
 <br>![image](https://user-images.githubusercontent.com/64064679/163204028-f58c23ad-2aa2-4361-ae6d-d983e0cf21c4.png)
 
-<br>to this:
+to this:
 <br>![image](https://user-images.githubusercontent.com/64064679/163203907-7cf41a20-ba41-499a-9879-d6858e1bc745.png)
 
 The easiest way is to use a replace card blueprint but you can use every blueprint or card you want.
