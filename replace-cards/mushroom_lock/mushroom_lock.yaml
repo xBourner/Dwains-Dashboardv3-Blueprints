@@ -1,1 +1,2 @@
- $replace_with_input_entity$
+type: custom:mushroom-lock-card
+entity: $replace_with_input_entity$
