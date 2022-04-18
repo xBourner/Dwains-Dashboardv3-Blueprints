@@ -8,7 +8,7 @@ blueprint:
     subtitle: 
       name: title    
   name: Replace Mushroom Light Card
-  type: card
+  type: replace-card
   version: '1.0'
 card:
   type: custom:mushroom-title-card
