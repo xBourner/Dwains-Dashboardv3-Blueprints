@@ -3,7 +3,7 @@ blueprint:
   - mushroom-lock-card
   description: replaces lock card with mushroom lock card by Bourner
   input:
-    name: null
+    name: replace-card
   name: Replace Mushroom Lock Card
   type: card
   version: '1.0'
