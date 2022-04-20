@@ -525,9 +525,9 @@ loader:
     custom_fields:
       loader:
         - display: none
-        - top: -5.8%
-        - right: -5.3%
-        - width: 50%
+        - top: -25.4%
+        - right: -9.4%
+        - width: 32%
         - position: absolute
         - opacity: 0.5
         - filter: >
