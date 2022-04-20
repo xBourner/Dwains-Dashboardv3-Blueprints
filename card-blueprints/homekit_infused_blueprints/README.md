@@ -6,7 +6,9 @@ Make sure to restart Home Assistant after you copied all files.
 
 Add following lines to your secrets.yaml
 
+````
 youtube_token: abc
 apexcharts_tibber: abc
 apexcharts_influx: abc
 apexcharts_github: abc
+````
