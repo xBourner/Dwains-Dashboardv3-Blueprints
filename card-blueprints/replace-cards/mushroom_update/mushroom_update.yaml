@@ -13,4 +13,3 @@ card:
   name: $replace_with_input_name$
   show_buttons_control: true
   use_entity_picture: true
-  
