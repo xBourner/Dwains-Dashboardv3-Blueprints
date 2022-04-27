@@ -30,7 +30,7 @@ This will replace the vacuum card of DD3 with the Mushroom Vacuum Card.
 
 
 ### Screenshots:
-![image](https://user-images.githubusercontent.com/64064679/165518998-84082d75-cc4f-4591-9945-dcdfd1eefa79.png)
+![image](https://user-images.githubusercontent.com/64064679/165519098-43d1d8f5-4056-4fe9-8474-dc9922c99aeb.png)
 ![image](https://user-images.githubusercontent.com/64064679/165518586-81fe842d-6b0c-4d22-a761-819946ed302e.png)
 ![image](https://user-images.githubusercontent.com/64064679/165518520-b9dc6cf1-ec40-4a20-8abf-376f3d722243.png)
 
