@@ -30,7 +30,9 @@ This will replace the entity card of DD3 with the Mushroom Entity Card.
 
 
 ### Screenshots:
-![image](https://user-images.githubusercontent.com/64064679/161959029-2a4178cc-5808-4a51-bcb8-685c09e57288.png)
+![image](https://user-images.githubusercontent.com/64064679/165515453-9cbbec27-fda0-40c3-8f65-b0b519328e5b.png)
+![image](https://user-images.githubusercontent.com/64064679/165515609-13fa8091-2caa-4928-8fe0-6f6d46bc6492.png)
+
 
 ### Changelog
 #### 1.0.0
