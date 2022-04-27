@@ -30,7 +30,10 @@ This will replace the light card of DD3 with the Mushroom Light Card.
 
 
 ### Screenshots:
-![image](https://user-images.githubusercontent.com/64064679/161959029-2a4178cc-5808-4a51-bcb8-685c09e57288.png)
+![image](https://user-images.githubusercontent.com/64064679/165515893-e5d3c26f-ea3e-40ac-adc5-245fdefd198f.png)
+![image](https://user-images.githubusercontent.com/64064679/165515949-6da000f2-8243-4709-8d06-f273f90fd1e6.png)
+
+
 
 ### Changelog
 #### 1.0.0
