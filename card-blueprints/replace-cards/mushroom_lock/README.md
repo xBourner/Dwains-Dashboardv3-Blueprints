@@ -30,7 +30,9 @@ This will replace the lock card of DD3 with the Mushroom Lock Card.
 
 
 ### Screenshots:
-![image](https://user-images.githubusercontent.com/64064679/161959029-2a4178cc-5808-4a51-bcb8-685c09e57288.png)
+![image](https://user-images.githubusercontent.com/64064679/165516416-23ea503d-388a-4353-935d-47dfd5a00319.png)
+![image](https://user-images.githubusercontent.com/64064679/165516289-539eb0c5-c5a5-44c2-abcd-4f3486dd646a.png)
+
 
 ### Changelog
 #### 1.0.0
