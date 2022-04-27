@@ -30,7 +30,10 @@ This will replace the media player card of DD3 with the Mushroom Media Player Ca
 
 
 ### Screenshots:
-![image](https://user-images.githubusercontent.com/64064679/161959029-2a4178cc-5808-4a51-bcb8-685c09e57288.png)
+![image](https://user-images.githubusercontent.com/64064679/165517109-f511c3d7-caaf-4308-883c-eda00728cb6d.png)
+![image](https://user-images.githubusercontent.com/64064679/165516749-8b0fae0f-2c5a-46f7-9958-fb3cfb73d9d2.png)
+![image](https://user-images.githubusercontent.com/64064679/165516824-0312004e-1a70-43ec-8f8a-1b474eb6edc4.png)
+
 
 ### Changelog
 #### 1.0.0
