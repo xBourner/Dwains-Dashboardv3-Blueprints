@@ -1,5 +1,5 @@
-## Dwains-Dashboardv3-Blueprints-Entity-Cards for Two Entities
-## More_page for Dwains Dashboard v3
+## Dwains-Dashboardv3-Blueprints-Mushroom-Replace-Card for Lights
+## Replace Card for Dwains Dashboard v3
 ##### Created by Bourner
 ---
 
@@ -10,8 +10,8 @@
 
 ### Installation: 
   
-1.  Go to More Page on DD3
-2.  Create a new more page
+1.  Go into Edit Mode
+2.  Go to an light entity you want to change or to the light domain in the device tab
 3.  Use Dwains Dashboard Blueprint
 4.  Add YAML Code from file to HA
 5.  Click install Blueprint
@@ -24,7 +24,7 @@
 
 ---
 
-This is a Blueprint for adding a card which fits into DD3 Design.
+This is a Blueprint to replace an existing card which fits into DD3 Design.
 This will replace the light card of DD3 with the Mushroom Light Card.
 
 
