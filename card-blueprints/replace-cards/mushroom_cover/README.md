@@ -30,7 +30,7 @@ This will replace the cover card of DD3 with the Mushroom Cover Card.
 
 ### Screenshots:
 ![image](https://user-images.githubusercontent.com/64064679/165513904-26451263-1939-4fd5-93c2-c6547872793c.png)
-![image](https://user-images.githubusercontent.com/64064679/165513956-ea673033-eb28-4fcc-847f-a245e6c9416b.png)
+![image](https://user-images.githubusercontent.com/64064679/165514121-3bb5078d-d473-456b-9e56-0393ba30e1d7.png)
 
 
 ### Changelog
