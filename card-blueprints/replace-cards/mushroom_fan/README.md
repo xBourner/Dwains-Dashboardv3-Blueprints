@@ -30,7 +30,7 @@ This will replace the fan card of DD3 with the Mushroom Fan Card.
 
 
 ### Screenshots:
-![image](https://user-images.githubusercontent.com/64064679/161959029-2a4178cc-5808-4a51-bcb8-685c09e57288.png)
+![image](https://user-images.githubusercontent.com/64064679/165514228-2eb2c5ab-99f3-4e87-ab51-447538252255.png)
 
 ### Changelog
 #### 1.0.0
