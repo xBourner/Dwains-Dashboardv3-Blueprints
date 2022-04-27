@@ -30,7 +30,9 @@ This will replace the alarm control panel card of DD3 with the Mushroom Alarm Co
 
 
 ### Screenshots:
-![image](https://user-images.githubusercontent.com/64064679/161959029-2a4178cc-5808-4a51-bcb8-685c09e57288.png)
+![image](https://user-images.githubusercontent.com/64064679/165514784-a46689be-383e-4067-a258-40058090ad75.png)
+![image](https://user-images.githubusercontent.com/64064679/165514879-bbe7b9b0-9def-4af4-83f1-1b8efb9d2ff6.png)
+
 
 ### Changelog
 #### 1.0.0
