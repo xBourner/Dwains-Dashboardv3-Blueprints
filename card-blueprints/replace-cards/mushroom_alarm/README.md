@@ -12,10 +12,11 @@
   
 1.  Go into Edit Mode
 2.  Go to an alarm control panel entity you want to change or to the alarm control panel domain in the device tab
-3.  Use Dwains Dashboard Blueprint
-4.  Add YAML Code from file to HA
-5.  Click install Blueprint
-6.  Click Use this Blueprint
+3.  Click on three dots and choose Entity Card
+4.  Use Dwains Dashboard Blueprint
+5.  Add YAML Code from file to HA
+6.  Click install Blueprint
+7.  Click Use this Blueprint
 
 
 ### Links:
