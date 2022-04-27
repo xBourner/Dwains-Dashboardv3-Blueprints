@@ -30,7 +30,8 @@ This will replace the person card of DD3 with the Mushroom Person Card.
 
 
 ### Screenshots:
-![image](https://user-images.githubusercontent.com/64064679/161959029-2a4178cc-5808-4a51-bcb8-685c09e57288.png)
+![image](https://user-images.githubusercontent.com/64064679/165519710-4a78af37-d3f0-40a1-b92c-fec8b017949e.png)
+![image](https://user-images.githubusercontent.com/64064679/165519869-1ba5da8a-f52a-4913-a63b-83b014fda75d.png)
 
 ### Changelog
 #### 1.0.0
