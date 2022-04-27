@@ -30,7 +30,7 @@ This will replace the update card of DD3 with the Mushroom Update Card.
 
 
 ### Screenshots:
-![image](https://user-images.githubusercontent.com/64064679/161959029-2a4178cc-5808-4a51-bcb8-685c09e57288.png)
+![image](https://user-images.githubusercontent.com/64064679/165518385-d54aaf08-e4e3-4892-a7cb-48da9c6fcfea.png)
 
 ### Changelog
 #### 1.0.0
