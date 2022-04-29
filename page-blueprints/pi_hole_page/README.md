@@ -1,7 +1,7 @@
 ## Pi-Hole Blueprint Home-Assistant
 ## More_page for Dwains Dashboard v3
 ##### Created by Bourner
-##### Note: this blueprint is a ported addon from Dwains Dashboard v2 addons. The original creator of this addon is [noodlemctwoodle](https://github.com/noodlemctwoodle)
+##### Note: This page is basedon the work of [noodlemctwoodle](https://github.com/noodlemctwoodle). 
 ---
 
 ### HACS components
