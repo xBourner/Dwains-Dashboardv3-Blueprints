@@ -59,14 +59,13 @@ card:
           type: horizontal-stack
         - subtitle: System
           type: custom:mushroom-title-card
-        type: custom:mushroom-title-card
-      - cards:
-          - entity: sensor.ipv4_address_eth0
-            name: IP Adress
-            type: custom:mushroom-entity-card
-          - entity: sensor.last_boot
-            type: custom:mushroom-entity-card
-        type: horizontal-stack          
+        - cards:
+            - entity: sensor.ipv4_address_eth0
+              name: IP Adress
+              type: custom:mushroom-entity-card
+            - entity: sensor.last_boot
+              type: custom:mushroom-entity-card
+          type: horizontal-stack          
         - cards:
             - bar_style:
                 border-radius: 5px
