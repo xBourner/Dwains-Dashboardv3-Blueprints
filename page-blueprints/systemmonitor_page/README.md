@@ -17,7 +17,7 @@ Enable systemmonitor in your configuration.yaml.
 
 You need at least these arguments:
 
-````
+```
 - platform: systemmonitor
   resources:
     - type: disk_use_percent
@@ -32,8 +32,9 @@ You need at least these arguments:
       arg: eth0     
     - type: network_out
       arg: eth0       
+```      
 
-    ````
+
 
 ### Installation: 
   
