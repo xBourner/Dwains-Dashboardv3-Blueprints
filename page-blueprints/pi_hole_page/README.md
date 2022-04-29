@@ -1,7 +1,7 @@
 ## Pi-Hole Blueprint Home-Assistant
 ## More_page for Dwains Dashboard v3
 ##### Created by Bourner
-##### Note: This page is basedon the work of [noodlemctwoodle](https://github.com/noodlemctwoodle). 
+##### Note: This page is based on the work of [noodlemctwoodle](https://github.com/noodlemctwoodle). 
 ---
 
 ### HACS components
