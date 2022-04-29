@@ -57,7 +57,7 @@ This will automatically show your system and speedtest in a dd3 page.
 
 ### Screenshots:
 
-![image](https://user-images.githubusercontent.com/64064679/165933186-182a1e1e-2cc7-47b4-9c70-90195e051f54.png)
+![image](https://user-images.githubusercontent.com/64064679/165935062-de390fc5-390f-4d24-9e0f-d7dcefeb2864.png)
 
 ### Changelog
 #### 1.0.0
