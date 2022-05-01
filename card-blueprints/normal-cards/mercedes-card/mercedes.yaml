@@ -1,8 +1,8 @@
 blueprint:
   custom_cards:
   - button-card
-  description: Mercedes page by Bourner
-  name: Mercedes Page Blueprint
+  description: Mercedes card by Bourner
+  name: Mercedes Card Blueprint
   input:
     license:
       name: license plate
