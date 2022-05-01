@@ -9,8 +9,9 @@
 
 ### Configuration
 
-Add the picture merc2.png to your config/www folder.
-Also add the templates below to your configuration.yaml. Search and replace "$license$" with your license plate number.
+1. Add the picture merc2.png to your config/www folder.
+2. Also add the templates below to your configuration.yaml. 
+/n Search and replace "$license$" with your license plate number.
 It's the same like in the Mercedes Integration.
 
 <details>
