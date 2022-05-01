@@ -1,5 +1,5 @@
 ## Dwains-Dashboardv3-Blueprints for Mercedes Me 
-## More_page for Dwains Dashboard v3
+## Card BLueprint for Dwains Dashboard v3
 ##### Created by Bourner
 ---
 
