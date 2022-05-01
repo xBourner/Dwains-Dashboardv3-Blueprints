@@ -1,3 +1,4 @@
+```
 - platform: template
   sensors:
     car_tire_pressure_rear_left:
@@ -204,3 +205,4 @@
           {% else %}
             mdi:lock-outline
           {% endif %}
+```
