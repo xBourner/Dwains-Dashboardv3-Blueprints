@@ -13,6 +13,8 @@ Add the picture merc2.png to your config/www folder.
 Also add the templates below to your configuration.yaml. Search and replace "$license$" with your license plate number.
 It's the same like in the Mercedes Integration.
 
+<details>
+<summary> Template yaml Code </summary>
 
 ```
 - platform: template
@@ -223,6 +225,7 @@ It's the same like in the Mercedes Integration.
           {% endif %}
 ```
 
+</details>
 
 ### Installation: 
   
