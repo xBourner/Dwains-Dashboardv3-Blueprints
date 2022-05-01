@@ -227,11 +227,6 @@ card:
       icon: fapro:car-wash-duotone
       name: Auto wassen?
       secondary_info: last-updated
-    footer:
-      entities:
-      - sensor.neerslag_buienalarm_regen_data
-      - sensor.neerslag_buienradar_regen_data
-      type: custom:neerslag-card
     state_color: true
     type: entities
   type: vertical-stack
