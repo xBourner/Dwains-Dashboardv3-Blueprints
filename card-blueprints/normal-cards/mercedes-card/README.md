@@ -15,8 +15,9 @@
 <br> Search and replace "$license$" with your license plate number.
 It's the same like in the Mercedes Integration.
 
+### YAML Code
 <details>
-<summary> Template yaml Code </summary>
+<summary> Click here to show Template YAML Code </summary>
 
 ```
 - platform: template
