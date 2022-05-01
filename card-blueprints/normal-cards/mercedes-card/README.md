@@ -247,7 +247,7 @@ It's the same like in the Mercedes Integration.
 This is a Blueprint for adding a mercedes card which fits into DD3 Design.
 
 ### Screenshots:
-![Screenshot_2022-04-30_om_19 50 51](https://user-images.githubusercontent.com/64064679/166141473-91be9e84-8eac-46ad-9088-c91b1ccf1572.jpg)
+![Screenshot_2022-05-01_om_12 21 30](https://user-images.githubusercontent.com/64064679/166141965-e1378ebe-39b5-42ff-a6c3-d64e508336b0.jpg)
 
 ### Changelog
 #### 1.0.0
