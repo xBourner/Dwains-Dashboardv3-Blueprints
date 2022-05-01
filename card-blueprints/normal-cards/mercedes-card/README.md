@@ -3,36 +3,15 @@
 ##### Created by Bourner
 ---
 
-
 ### HACS components
 
 - Install [Mercedes Me](https://github.com/ReneNulschDE/mbapi2020) from [HACS](https://hacs.xyz).
 
-### Installation: 
-  
-1.  Go to More Page on DD3
-2.  Create a new more page
-3.  Use Dwains Dashboard Blueprint
-4.  Add YAML Code from file to HA
-5.  Click install Blueprint
-6.  Click Use this Blueprint
+### Configuration
 
-
-### Links:
-* https://github.com/dwainscheeren/dwains-dashboard-blueprints
-* https://www.home-assistant.io/
-
----
-
-This is a Blueprint for adding a card which fits into DD3 Design.
-You can add your own entities to a room. 
-
-### Screenshots:
-![Screenshot_2022-04-30_om_19 50 51](https://user-images.githubusercontent.com/64064679/166141473-91be9e84-8eac-46ad-9088-c91b1ccf1572.jpg)
-
-### Changelog
-#### 1.0.0
-- First release
+Add the picture merc2.png to your config/www folder.
+Also add the templates below to your configuration.yaml. Search and replace "$license$" with your license plate number.
+It's the same like in the Mercedes Integration.
 
 ```
 - platform: template
@@ -242,3 +221,32 @@ You can add your own entities to a room.
             mdi:lock-outline
           {% endif %}
 ```
+
+
+### Installation: 
+  
+1.  Go to an Area on DD3
+2.  Go into Edit Mode
+3.  Choose Add Card
+4.  Use Dwains Dashboard Blueprint
+5.  Add YAML Code from file to HA
+6.  Click install Blueprint
+7.  Click Use this Blueprint
+
+
+### Links:
+* https://github.com/dwainscheeren/dwains-dashboard-blueprints
+* https://www.home-assistant.io/
+
+---
+
+This is a Blueprint for adding a mercedes card which fits into DD3 Design.
+
+### Screenshots:
+![Screenshot_2022-04-30_om_19 50 51](https://user-images.githubusercontent.com/64064679/166141473-91be9e84-8eac-46ad-9088-c91b1ccf1572.jpg)
+
+### Changelog
+#### 1.0.0
+- First release
+
+
