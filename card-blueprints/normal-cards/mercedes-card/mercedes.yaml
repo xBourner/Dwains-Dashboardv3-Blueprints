@@ -1,7 +1,6 @@
 blueprint:
   custom_cards:
   - button-card
-  - neerslag-card
   description: Mercedes page by Bourner
   name: Mercedes Page Blueprint
   input:
