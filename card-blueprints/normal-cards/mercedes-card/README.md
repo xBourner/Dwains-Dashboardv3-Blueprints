@@ -1,3 +1,39 @@
+## Dwains-Dashboardv3-Blueprints for Mercedes Me 
+## More_page for Dwains Dashboard v3
+##### Created by Bourner
+---
+
+
+### HACS components
+
+- Install [Mercedes Me](https://github.com/ReneNulschDE/mbapi2020) from [HACS](https://hacs.xyz).
+
+### Installation: 
+  
+1.  Go to More Page on DD3
+2.  Create a new more page
+3.  Use Dwains Dashboard Blueprint
+4.  Add YAML Code from file to HA
+5.  Click install Blueprint
+6.  Click Use this Blueprint
+
+
+### Links:
+* https://github.com/dwainscheeren/dwains-dashboard-blueprints
+* https://www.home-assistant.io/
+
+---
+
+This is a Blueprint for adding a card which fits into DD3 Design.
+You can add your own entities to a room. 
+
+### Screenshots:
+![Screenshot_2022-04-30_om_19 50 51](https://user-images.githubusercontent.com/64064679/166141473-91be9e84-8eac-46ad-9088-c91b1ccf1572.jpg)
+
+### Changelog
+#### 1.0.0
+- First release
+
 ```
 - platform: template
   sensors:
