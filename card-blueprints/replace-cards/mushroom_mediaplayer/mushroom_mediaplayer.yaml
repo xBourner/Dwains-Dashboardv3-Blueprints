@@ -14,7 +14,7 @@ blueprint:
       type: checkbox
       description: Collapse Controls when off     
   type: replace-card
-  version: '1.1'
+  version: '1.2'
 card:
   type: custom:mushroom-media-player-card
   use_media_info: $info$
