@@ -3,7 +3,15 @@ blueprint:
   - mushroom-update-card
   description: replaces update card with mushroom update card by Bourner
   input:
-    name: null
+    button:
+      type: checkbox
+      description: Show Button Controls
+    picture:
+      type: checkbox
+      description: Use Picture Entity
+    collapse:
+      type: checkbox
+      description: Collapse Controls when off    
   name: Replace Mushroom Update Card
   type: replace-card
   version: '1.0'
@@ -11,5 +19,6 @@ card:
   type: custom:mushroom-update-card
   entity: $replace_with_input_entity$
   name: $replace_with_input_name$
-  show_buttons_control: true
-  use_entity_picture: true
+  show_buttons_control: $button$
+  use_entity_picture: $picture$
+  collapsible_controls: $collapse$
