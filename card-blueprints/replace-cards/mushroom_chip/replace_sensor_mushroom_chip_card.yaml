@@ -3,14 +3,19 @@ blueprint:
   - mushroom-chips-card
   description: replaces motion/window/door sensors with mushroom chip card by Bourner
   name: Replace Sensor Mushroom Chip Card
+  input:
+    picture:
+      type: checkbox
+      description: Use Entity Picture
   type: replace-card
-  version: '1.0'
+  version: '1.1'
 card:
   chips:
   - chip:
       content_info: name
       name: $replace_with_input_name$
       entity: $replace_with_input_entity$
+      use_entity_picture: true
       type: entity
     conditions:
     - entity: $replace_with_input_entity$
