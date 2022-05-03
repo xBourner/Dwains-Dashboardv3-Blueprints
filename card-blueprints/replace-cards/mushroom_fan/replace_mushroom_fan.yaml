@@ -3,6 +3,22 @@ blueprint:
   - mushroom-fan-card
   description: replaces fan card with mushroom fan card by Bourner
   name: Replace Mushroom Fan Card
+  input:
+    oscillate:
+      type: checkbox
+      description: Show Oscillate Control
+    percentage:
+      type: checkbox
+      description: Show Percentage Control
+    animation:
+      type: checkbox
+      description: Animate Icon when on
+    state:
+      type: checkbox
+      description: Hide State
+    collapsible:
+      type: checkbox
+      description: Colapse Controls when off  
   type: replace-card
   version: '1.1'
 card:
@@ -12,4 +28,5 @@ card:
   show_percentage_control: true
   icon_animation: true
   hide_state: false
+  collapsible_controls: true
   type: custom:mushroom-fan-card
