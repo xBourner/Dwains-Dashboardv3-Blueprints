@@ -24,9 +24,9 @@ blueprint:
 card:
   entity: $replace_with_input_entity$
   name: $replace_with_input_name$
-  show_oscillate_control: true
-  show_percentage_control: true
-  icon_animation: true
-  hide_state: false
-  collapsible_controls: true
+  show_oscillate_control: $oscillate$
+  show_percentage_control: $percentage$
+  icon_animation: $animation$
+  hide_state: $state$
+  collapsible_controls: $collapsible$
   type: custom:mushroom-fan-card
