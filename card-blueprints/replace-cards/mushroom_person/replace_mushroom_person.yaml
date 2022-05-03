@@ -3,12 +3,18 @@ blueprint:
   - mushroom-person-card
   description: replaces person card with mushroom person card by Bourner
   name: Replace Mushroom Person Card
+  input:
+    picture:
+      type: checkbox
+      description: Use Entity Picture
+    state:
+      type: checkbox
+      description: Hide State
   type: replace-card
   version: '1.1'
 card:
   entity: $replace_with_input_entity$
   name: $replace_with_input_name$
-  use_entity_picture: true
-  hide_state: false
-  hide_name: false  
+  use_entity_picture: $picture$
+  hide_state: $state$
   type: custom:mushroom-person-card
