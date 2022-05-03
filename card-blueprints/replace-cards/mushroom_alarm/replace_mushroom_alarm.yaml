@@ -3,12 +3,20 @@ blueprint:
   - mushroom-alarm-control-panel-card
   description: replaces alarm card with mushroom alarm card by Bourner
   name: Replace Mushroom Alarm Card
+  input:
+    keypad: 
+      type: checkbox
+      description: Show Keypad
+    state: 
+      type: checkbox
+      description: Show State   
   type: replace-card
-  version: '1.1'
+  version: '1.2'
 card:
   entity: $replace_with_input_entity$
   name: $replace_with_input_name$
-  hide_state: false
+  hide_state: $state$
+  show_keypad: true
   states:
     - armed_home
     - armed_away
@@ -16,3 +24,4 @@ card:
     - armed_vacation
     - armed_custom_bypass
   type: custom:mushroom-alarm-control-panel-card
+
