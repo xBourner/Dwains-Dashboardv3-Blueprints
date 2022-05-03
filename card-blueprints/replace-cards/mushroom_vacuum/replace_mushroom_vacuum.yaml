@@ -3,13 +3,17 @@ blueprint:
   - mushroom-vacuum-card
   description: replaces vaccum card with mushroom vacuum card by Bourner
   name: Replace Mushroom Vacuum Card
+  input:
+    state:
+      type: checkbox
+      description: Hide State
   type: replace-card
-  version: '1.1'
+  version: '1.2'
 card:
   type: custom:mushroom-vacuum-card
   entity: $replace_with_input_entity$
   name: $replace_with_input_name$
-  hide_state: false
+  hide_state: $state$
   commands:
     - start_pause
     - stop
