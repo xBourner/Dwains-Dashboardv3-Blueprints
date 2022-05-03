@@ -11,7 +11,7 @@ blueprint:
       type: checkbox
       description: Hide State
   type: replace-card
-  version: '1.1'
+  version: '1.2'
 card:
   entity: $replace_with_input_entity$
   name: $replace_with_input_name$
