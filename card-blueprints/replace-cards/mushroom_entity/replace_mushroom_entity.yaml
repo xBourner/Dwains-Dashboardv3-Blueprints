@@ -3,11 +3,20 @@ blueprint:
   - mushroom-entity-card
   description: replaces entity card with mushroom entity card by Bourner
   name: Replace Mushroom Entity Card
+  input:
+    icon:
+      type: checkbox
+      description: Hide Icon
+    picture:
+      type: checkbox
+      description: Use Entity Picture      
   type: replace-card
   version: '1.1'
 card:
   entity: $replace_with_input_entity$
   name: $replace_with_input_name$
+  use_entity_picture: $picture$
+  hide_icon: $icon$
   type: custom:mushroom-entity-card
 
   
