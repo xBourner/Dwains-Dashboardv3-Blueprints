@@ -3,14 +3,36 @@ blueprint:
   - mushroom-light-card
   description: replaces light card with mushroom light card by Bourner
   name: Replace Mushroom Light Card
+  input: 
+    state: 
+      type: checkbox
+      description: Hide State
+    brightness: 
+      type: checkbox
+      description: Show Brightness Control
+    color: 
+      type: checkbox
+      description: Show Color Control
+    colortemp: 
+      type: checkbox
+      description: Show Color Temp Control
+    light: 
+      type: checkbox
+      description: Use Light Color
+    collapsible: 
+      type: checkbox
+      description: Collapse Controls when off      
   type: replace-card
   version: '1.1'
 card:
   entity: $replace_with_input_entity$
   name: $replace_with_input_name$
-  hide_state: false
-  show_brightness_control: true
-  show_color_control: true
-  show_color_temp_control: true
+  hide_state: $state$
+  show_brightness_control: $brightness$
+  show_color_control: $color$
+  show_color_temp_control: $colortemp$
+  use_light_color: $light$
+  collapsible_controls: $collapsible$
   type: custom:mushroom-light-card
-  use_light_color: true
+  
+
