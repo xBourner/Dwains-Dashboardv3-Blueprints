@@ -2,7 +2,7 @@ blueprint:
   custom_cards:
   - button-card
   description: adds homekit style light card by Bourner
-  name: Homekit Hue Light Card
+  name: Homekit Light Hue Card
   type: replace-card
   version: '1.0'
 card:
