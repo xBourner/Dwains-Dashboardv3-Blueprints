@@ -4,11 +4,45 @@ Apply the blueprint you want the normal way. The templates in the blueprint will
 
 Make sure to restart Home Assistant after you copied all files.
 
-Add following lines to your secrets.yaml
 
-````
-youtube_token: abc
-apexcharts_tibber: abc
-apexcharts_influx: abc
-apexcharts_github: abc
-````
+Tested templates:
+
+- base
+- tilt
+- extra_styles
+- circle
+- loader
+- climate_hvac
+- climate
+- light
+- person
+- media
+- conditional_media
+- lock
+- icon_plex
+- icon_apple_tv
+- icon_spotify
+- icon_nest_mini
+- icon_play_pause
+- icon_hue
+- icon-shade
+- icon_tv
+- icon_ps5
+- icon_spot
+- icon_imac
+- icon_monitors
+- icon_lamp
+- icon_climate
+- icon_bathroom
+- icon_fan2
+- icon_closet
+- icon_awy
+- icon_home
+
+untesetd templates:
+- base_media
+- laundry
+- icon_name
+- icon_only
+
+screenshots will follow
