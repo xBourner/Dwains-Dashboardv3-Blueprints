@@ -19,3 +19,6 @@ card:
   - light
   - icon_hue
   type: custom:button-card
+  button_card_templates:
+    button_card_with_template_example_card:
+      styles_here
