@@ -5,6 +5,11 @@ Apply the blueprint you want the normal way. The templates in the blueprint will
 Make sure to restart Home Assistant after you copied all files.
 
 
+Copy loader.svg and vanilla-titl.js to your config/www/ folder.
+
+Add "/local/vanilla-tilt.js" as a ressource in HA if you want a tilt effect.
+
+
 Tested templates:
 
 - base
