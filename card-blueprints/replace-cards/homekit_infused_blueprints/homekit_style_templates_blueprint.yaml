@@ -866,8 +866,8 @@ button_card_templates:
     styles:
       custom_fields:
         icon:
-          - width: 55px
-          - margin-top: -3px
+          - width: 52px
+          - margin-top: 0px
           - margin-left: 2px
     custom_fields:
       icon: >
@@ -879,8 +879,8 @@ button_card_templates:
     styles:
       custom_fields:
         icon:
-          - width: 55px
-          - margin-top: -3px
+          - width: 52px
+          - margin-top: 0px
           - margin-left: 3px
     custom_fields:
       icon: >
@@ -891,8 +891,8 @@ button_card_templates:
     styles:
       custom_fields:
         icon:
-          - width: 55px
-          - margin-top: -3px
+          - width: 52px
+          - margin-top: 0px
           - margin-left: 2px
     custom_fields:
       icon: >
@@ -903,8 +903,8 @@ button_card_templates:
     styles:
       custom_fields:
         icon:
-          - width: 55px
-          - margin-top: -3px
+          - width: 52px
+          - margin-top: 0px
           - margin-left: 3px
     custom_fields:
       icon: >
@@ -979,9 +979,9 @@ button_card_templates:
     styles:
       custom_fields:
         icon:
-          - width: 55px
+          - width: 53px
           - margin-left: -5px
-          - margin-top: -3px
+          - margin-top: -1px
     custom_fields:
       icon: >
         [[[
@@ -1023,9 +1023,9 @@ button_card_templates:
     styles:
       custom_fields:
         icon:
-          - width: 55px
+          - width: 53px
           - margin-left: -3px
-          - margin-top: -3px
+          - margin-top: -1px
     custom_fields:
       icon: >
         [[[
@@ -1067,8 +1067,8 @@ button_card_templates:
     styles:
       custom_fields:
         icon:
-          - width: 55px
-          - margin-top: -3px
+          - width: 53px
+          - margin-top: -1px
           - margin-left: 3px
           - fill: >
               [[[
@@ -1214,9 +1214,9 @@ button_card_templates:
     styles:
       custom_fields:
         icon:
-          - width: 55px
+          - width: 53px
           - margin-left: -3px
-          - margin-top: -3px
+          - margin-top: -1px
     custom_fields:
       icon: >
         [[[
@@ -1303,8 +1303,8 @@ button_card_templates:
     styles:
       custom_fields:
         icon:
-          - width: 55px
-          - margin-top: -3px
+          - width: 53px
+          - margin-top: -1px
           - margin-left: 5px
           - fill: >
               [[[ return variables.state_on ? '#72757c' : '#9da0a2'; ]]]
@@ -1337,9 +1337,9 @@ button_card_templates:
     styles:
       custom_fields:
         icon:
-          - width: 55px
+          - width: 53px
           - margin-left: -2px
-          - margin-top: -3px
+          - margin-top: -1px
     custom_fields:
       icon: >
         [[[
@@ -1427,9 +1427,9 @@ button_card_templates:
     styles:
       custom_fields:
         icon:
-          - width: 55px
+          - width: 53px
           - margin-left: -4px
-          - margin-top: -3px
+          - margin-top: -1px
     custom_fields:
       icon: >
         [[[
@@ -1468,9 +1468,9 @@ button_card_templates:
     styles:
       custom_fields:
         icon:
-          - width: 55px
+          - width: 53px
           - margin-left: -3px
-          - margin-top: -3px
+          - margin-top: -1px
           - fill: >
               [[[ return variables.state === 'cool' || variables.state === 'fan_only' ? '#5daeea' : '#9da0a2'; ]]]
     custom_fields:
@@ -1482,9 +1482,9 @@ button_card_templates:
     styles:
       custom_fields:
         icon:
-          - width: 55px
+          - width: 53px
           - margin-left: -3px
-          - margin-top: -3px
+          - margin-top: -1px
     custom_fields:
       icon: >
         [[[
@@ -1558,9 +1558,9 @@ button_card_templates:
     styles:
       custom_fields:
         icon:
-          - width: 55px
+          - width: 53px
           - margin-left: -2px
-          - margin-top: -3px
+          - margin-top: -1px
     custom_fields:
       icon: >
         [[[
@@ -1630,9 +1630,9 @@ button_card_templates:
     styles:
       custom_fields:
         icon:
-          - width: 55px
+          - width: 53px
           - margin-left: -5px
-          - margin-top: -3px
+          - margin-top: -1px
     custom_fields:
       icon: >
         [[[
@@ -1738,8 +1738,8 @@ button_card_templates:
         - transition: all 0.3s ease-out
       custom_fields:
         icon:
-          - width: 55px
-          - margin-top: -3px
+          - width: 53px
+          - margin-top: -1px
           - fill: >
               [[[ return variables.state_on ? '#516d82' : '#9da0a2'; ]]]
     custom_fields:
@@ -1809,8 +1809,8 @@ button_card_templates:
       - transition: all 0.3s ease-out
       custom_fields:
         icon:
-        - width: 55px
-        - margin-top: -3px
+        - width: 53px
+        - margin-top: -1px
         - fill: '[[[ return variables.state_on ? ''#c7983e'' : ''#9da0a2''; ]]]
   
             '
