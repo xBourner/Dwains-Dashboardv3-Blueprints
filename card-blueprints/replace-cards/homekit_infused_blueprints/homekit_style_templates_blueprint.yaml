@@ -363,13 +363,13 @@ button_card_templates:
         - color: 'rgba(255, 255, 255, 0.3)'
       custom_fields:
         icon:
-          - width: 58px
+          - width: 53px
           - margin-left: 3px
-          - margin-top: -6px
+          - margin-top: -1px
         circle:
-          - width: 58px
+          - width: 53px
           - justify-self: end
-          - margin-top: -6px
+          - margin-top: -1px
   
   climate:
     template:
