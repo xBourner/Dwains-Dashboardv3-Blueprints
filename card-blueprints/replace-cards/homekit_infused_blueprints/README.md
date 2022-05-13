@@ -10,18 +10,13 @@
 
 ### Configuration
 
-
-To use this Blueprint copy the file homekit_infused_button_card_templates.yaml into /config/dwains-dashboard/button_card_templates/blueprints.
-
-Apply the blueprint you want the normal way. The templates in the blueprint will be used from the file homekit_infused_button_card_templates.yaml
-
+To use the button card templates install the content from homekit_style_templates_blueprint.yaml as a blueprint in Dwains Dashboard.
+Copy loader.svg and vanilla-titl.js to your config/www/ folder.
+Add "/local/vanilla-tilt.js" as a ressource in HA if you want a tilt effect.
 Make sure to restart Home Assistant after you copied all files.
 
-
-Copy loader.svg and vanilla-titl.js to your config/www/ folder.
-
-Add "/local/vanilla-tilt.js" as a ressource in HA if you want a tilt effect.
-
+After you did all that you can add templates in your custom button card.
+For tmeplates look in the folders above. Screenshots and examples will be there.
 
 ### Installation: 
   
@@ -75,8 +70,6 @@ untesetd templates:
 - laundry
 - icon_name
 - icon_only
-
-screenshots will follow
 
 
 ### Links:
