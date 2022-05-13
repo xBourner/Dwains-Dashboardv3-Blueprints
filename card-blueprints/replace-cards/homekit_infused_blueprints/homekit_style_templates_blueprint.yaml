@@ -253,7 +253,7 @@ button_card_templates:
         circle:
           - display: initial
           - width: 50px
-          - margin: -7px -7px 0 0
+          - margin: -4px -4px 0 0
           - justify-self: end
           - opacity: 1
   #################################################
