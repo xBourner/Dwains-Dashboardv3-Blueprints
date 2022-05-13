@@ -16,18 +16,15 @@ To use the button card templates install the content from homekit_style_template
 <br>Make sure to restart Home Assistant after you copied all files.
 
 After you did all that you can add templates in your custom button card.
-For tmeplates look in the folders above. Screenshots and examples will be there.
+<br>For templates look in the folders above. Screenshots and examples will be there.
 
 ### Installation: 
   
 1.  Go into Edit Mode
-2.  Go to an alarm control panel entity you want to change or to the alarm control panel domain in the device tab
-3.  Click on three dots and choose Entity Card
-4.  Use Dwains Dashboard Blueprint
-5.  Add YAML Code from file to HA
-6.  Click install Blueprint
-7.  Click Use this Blueprint
-
+2.  Click Add Card
+3.  Use Dwains Dashboard Blueprint
+4.  Add YAML Code from file to HA
+5.  Click install Blueprint
 
 ### Templates
 
