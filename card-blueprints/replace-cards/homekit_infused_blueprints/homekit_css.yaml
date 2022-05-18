@@ -164,7 +164,7 @@
           }
           #card {
             transform-style: preserve-3d;
-            overflow: visible;
+            overflow: hidden;
           }
 
           ${this._config.template.includes('conditional_media') ? `
