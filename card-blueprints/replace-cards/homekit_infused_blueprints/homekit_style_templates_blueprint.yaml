@@ -304,7 +304,7 @@ button_card_templates:
               let elt = this.shadowRoot,
                 card = elt.getElementById('card'),
                 ignore = window.navigator.userAgent;
-              if (elt && card && !ignore.match(/iPhone/i) && !ignore.match(/Android/i)) {
+              if (elt && card && !ignore.match(/iPhone/i) && !ignore.match(/Android/i) && !ignore.match(/iPad/i)) {
                 VanillaTilt.init(card, variables.tilt_options);
               }
             }, 0);
