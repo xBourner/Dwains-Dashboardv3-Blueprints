@@ -517,6 +517,8 @@ button_card_templates:
       - base
       - circle
     triggers_update: sensor.time
+    tap_action:
+      action: more-info    
     hold_action:
       action: none
     styles:
