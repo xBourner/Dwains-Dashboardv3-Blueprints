@@ -1,7 +1,7 @@
 ### Homekit Light Hue
 
 
-<br>![image](https://user-images.githubusercontent.com/64064679/167848622-70c6d898-a4c0-4505-861b-26c1549ed8be.png)
+<br>![image](https://user-images.githubusercontent.com/64064679/169295749-fa14e0be-6150-4f83-b274-8415285f57fa.png)
 ![image](https://user-images.githubusercontent.com/64064679/167849030-3403038e-7b3b-4901-a824-d96ce060c69e.png)
 
 ````
@@ -14,7 +14,7 @@ type: custom:button-card
 
 ### Homekit Light Lamp
 
-<br>![image](https://user-images.githubusercontent.com/64064679/167848716-13904cfa-ec23-4351-821d-500ddb693045.png)
+<br>![image](https://user-images.githubusercontent.com/64064679/169295904-fdf45aa6-cd7d-4b2c-ac21-d38451025448.png)
 ![image](https://user-images.githubusercontent.com/64064679/167849079-ca713f28-65fb-4c7f-8bb3-5a523f9fd656.png)
 
 ````
@@ -27,7 +27,7 @@ type: custom:button-card
 
 ### Homekit Light Spot
 
-<br>![image](https://user-images.githubusercontent.com/64064679/167848824-6e69bdcf-2713-42c9-84e9-99e60b79b6f6.png)
+<br>![image](https://user-images.githubusercontent.com/64064679/169295851-7ce62c8d-bdd5-487f-be82-bfb058202579.png)
 ![image](https://user-images.githubusercontent.com/64064679/167849207-6db4190a-5330-4c04-b927-3ff39f3662c5.png)
 
 ````
@@ -40,7 +40,7 @@ type: custom:button-card
 
 ### Homkit Light Shade
 
-<br>![image](https://user-images.githubusercontent.com/64064679/167848876-a32beb12-f7e3-46e5-a286-829e7a660384.png)
+<br>![image](https://user-images.githubusercontent.com/64064679/169295802-ad1364df-c8a1-4000-928a-4700c875a7e7.png)
 ![image](https://user-images.githubusercontent.com/64064679/167849255-c549513b-c102-4239-a1fa-5f51a13307e5.png)
 
 ````
