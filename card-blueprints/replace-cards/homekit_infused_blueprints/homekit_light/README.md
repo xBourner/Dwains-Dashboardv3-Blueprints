@@ -87,4 +87,26 @@ template:
 type: custom:button-card
 ````
 
+![image](https://user-images.githubusercontent.com/64064679/169300586-41834cb6-9e03-44c1-8703-c1fae44269ad.png)
+![image](https://user-images.githubusercontent.com/64064679/169300698-6bd0f20c-dd65-4603-a8b2-cff44905e309.png)
+
+
+````
+entity: climate.climate
+template:
+  - climate
+type: custom:button-card
+````
+
+
+![image](https://user-images.githubusercontent.com/64064679/169300865-ef04a9f6-2fec-4f1f-adf5-d5236d8c4e5e.png)
+![image](https://user-images.githubusercontent.com/64064679/169300923-f5af75bd-18f8-4ce4-9cb6-e8d7864af2cc.png)
+
+
+````
+entity: climate.climate
+template:
+  - climate_hvac
+type: custom:button-card
+````
 
