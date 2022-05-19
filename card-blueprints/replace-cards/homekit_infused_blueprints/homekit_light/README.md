@@ -132,36 +132,124 @@ type: custom:button-card
 ````
 
 ![image](https://user-images.githubusercontent.com/64064679/169305069-08d07872-6c21-4f40-a9b3-c8e4eebab4c9.png)
+![image](https://user-images.githubusercontent.com/64064679/169305707-83c6269e-191e-4951-a482-87ab1488d47a.png)
 
+````
+entity: entity.entity
+template:
+  - base
+  - icon_apple_tv
+type: custom:button-card
+````
 
 ![image](https://user-images.githubusercontent.com/64064679/169305120-b1d106ac-c501-4108-b348-c4f1e66c6649.png)
+![image](https://user-images.githubusercontent.com/64064679/169305750-a35283f6-51dd-4e83-ba5f-cb02915b1a60.png)
 
+````
+entity: entity.entity
+template:
+  - base
+  - icon_tv
+type: custom:button-card
+````
 
 ![image](https://user-images.githubusercontent.com/64064679/169305153-49d9026b-68d6-436f-b223-8ee255cde034.png)
+![image](https://user-images.githubusercontent.com/64064679/169305785-7f187436-6f77-4973-bde6-112f8e9d4d2d.png)
 
+````
+entity: entity.entity
+template:
+  - base
+  - icon_nest_mini
+type: custom:button-card
+````
 
 ![image](https://user-images.githubusercontent.com/64064679/169305203-df2aabbb-ed78-44a1-a0c8-835f05ef969e.png)
+![image](https://user-images.githubusercontent.com/64064679/169305814-24baebc6-90a7-4371-949c-f64746d28e22.png)
 
+````
+entity: entity.entity
+template:
+  - base
+  - icon_ps5
+type: custom:button-card
+````
 
 ![image](https://user-images.githubusercontent.com/64064679/169305263-34e86c9e-386d-4312-9696-0645e98d2803.png)
+![image](https://user-images.githubusercontent.com/64064679/169305849-ef9da26c-5c69-4d8f-9954-1d8bfabbd833.png)
 
+````
+entity: entity.entity
+template:
+  - base
+  - icon_imac
+type: custom:button-card
+````
 
 ![image](https://user-images.githubusercontent.com/64064679/169305319-f3a8922b-0323-4cea-83f5-0dc0506deef0.png)
+![image](https://user-images.githubusercontent.com/64064679/169305900-77306f06-d3d9-45ff-aa93-fc617c45f54d.png)
 
+````
+entity: entity.entity
+template:
+  - base
+  - icon_climate
+type: custom:button-card
+````
 
 ![image](https://user-images.githubusercontent.com/64064679/169305364-5a4ab8fc-fee7-476f-bc5f-b698ffaaba1d.png)
+![image](https://user-images.githubusercontent.com/64064679/169305938-5c8a9160-2239-4888-b88b-c43877b84a57.png)
 
+````
+entity: entity.entity
+template:
+  - base
+  - icon_fan
+type: custom:button-card
+````
 
 ![image](https://user-images.githubusercontent.com/64064679/169305419-fdf93706-693b-44eb-b56b-7df8019bdaaa.png)
+![image](https://user-images.githubusercontent.com/64064679/169305990-e9751159-6573-491e-93da-48d7ffb47a32.png)
 
+````
+entity: entity.entity
+template:
+  - base
+  - icon_bathroom
+type: custom:button-card
+````
 
 ![image](https://user-images.githubusercontent.com/64064679/169305472-2af2e856-ed6f-4e20-8ee8-e9a35eca9583.png)
+![image](https://user-images.githubusercontent.com/64064679/169306032-8c8628e1-5abd-40d5-aae2-7627d22256dc.png)
 
+````
+entity: entity.entity
+template:
+  - base
+  - icon_closet
+type: custom:button-card
+````
 
 ![image](https://user-images.githubusercontent.com/64064679/169305534-cbcb0ffb-f5e1-4137-81bd-3cb3fdd17704.png)
+![image](https://user-images.githubusercontent.com/64064679/169306067-0ce2105b-b37e-4824-b779-fff39f2972e4.png)
 
+````
+entity: entity.entity
+template:
+  - base
+  - icon_away
+type: custom:button-card
+````
 
 ![image](https://user-images.githubusercontent.com/64064679/169305569-3df965d2-f3b1-4033-891c-762afbce9412.png)
+![image](https://user-images.githubusercontent.com/64064679/169306122-87651696-2d0a-455e-a4e7-9c4a72887639.png)
 
+````
+entity: entity.entity
+template:
+  - base
+  - icon_home
+type: custom:button-card
+````
 
 
