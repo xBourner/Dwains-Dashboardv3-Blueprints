@@ -120,3 +120,13 @@ template:
 type: custom:button-card
 ````
 
+![image](https://user-images.githubusercontent.com/64064679/169303632-c0ad6ac8-2f04-4e52-ab38-28a16cd052d5.png)
+![image](https://user-images.githubusercontent.com/64064679/169303717-74071e93-d5a7-4fd1-95c8-258db32cbc38.png)
+
+````
+entity: entity.entity
+template:
+  - base
+  - icon_plex
+type: custom:button-card
+````
