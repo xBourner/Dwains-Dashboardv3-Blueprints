@@ -317,6 +317,29 @@ type: custom:button-card
 </details>
 
 
+### Use of Replace Cards
+
+Some ready to use replace cards are in this [folder]([https://www.google.com](https://github.com/xBourner/Dwains-Dashboardv3-Blueprints/tree/main/card-blueprints/replace-cards/homekit_infused_blueprints/homekit_replace_blueprints) 
+
+If you need your own replace card you can use this example to make one.
+Just change name, description and the used templates on the bottom and it will work.
+
+````
+blueprint:
+  custom_cards:
+  - button-card
+  description: adds homekit style light card by Bourner
+  name: Homekit Light Hue Card
+  type: replace-card
+  version: '1.0'
+card:
+  entity: $replace_with_input_entity$
+  name: $replace_with_input_name$
+  type: custom:button-card
+  template:
+    - light
+    - icon_hue
+````
 
 ### Links:
 * https://github.com/dwainscheeren/dwains-dashboard-blueprints
