@@ -710,6 +710,8 @@ button_card_templates:
         }
         return variables.translate_unknown;
       ]]]
+    double_tap_action:
+      action: more-info      
     tap_action:
       action: call-service
       service: media_player.media_play_pause
