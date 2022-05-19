@@ -52,5 +52,20 @@ type: custom:button-card
 ````
 
 
+![image](https://user-images.githubusercontent.com/64064679/169297548-93ab71c2-8e69-4ae9-9d0e-c07456a30450.png)
+![image](https://user-images.githubusercontent.com/64064679/169297971-2da85817-a035-4e1d-af44-8eb528737e25.png)
+
+
+
+![image](https://user-images.githubusercontent.com/64064679/169297588-548106ee-9db2-4196-a6b6-213c04ae0f7b.png)
+![image](https://user-images.githubusercontent.com/64064679/169298018-8153da68-80ba-48ec-8bc6-582c5a513e5f.png)
+
+
+
+![image](https://user-images.githubusercontent.com/64064679/169297643-ac5a803f-5b15-480d-830d-97090baf867b.png)
+![image](https://user-images.githubusercontent.com/64064679/169298066-8e78da8f-65a1-42c0-b41e-5c278b4509a0.png)
+
+
+
 
 
