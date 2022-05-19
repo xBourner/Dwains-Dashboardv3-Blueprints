@@ -28,6 +28,9 @@ After you did all that you can add templates in your custom button card.
 
 ### Examples
 
+<details>
+<summary> Click here to show Examples </summary>
+
 ## Homekit Light Hue
 
 ![image](https://user-images.githubusercontent.com/64064679/169295749-fa14e0be-6150-4f83-b274-8415285f57fa.png)
@@ -309,7 +312,7 @@ template:
 type: custom:button-card
 ````
 
-
+</details>
 
 
 
