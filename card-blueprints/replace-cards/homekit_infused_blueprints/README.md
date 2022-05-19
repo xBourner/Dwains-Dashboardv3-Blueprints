@@ -28,9 +28,6 @@ After you did all that you can add templates in your custom button card.
 
 ### Examples
 
-<details>
-<summary> Click here to show Examples </summary>
-
 ## Homekit Light Hue
 
 ![image](https://user-images.githubusercontent.com/64064679/169295749-fa14e0be-6150-4f83-b274-8415285f57fa.png)
@@ -43,6 +40,22 @@ template:
   - icon_hue
 type: custom:button-card
 ````
+## Homekit Conditional Media
+
+![image](https://user-images.githubusercontent.com/64064679/169297548-93ab71c2-8e69-4ae9-9d0e-c07456a30450.png)
+![image](https://user-images.githubusercontent.com/64064679/169297971-2da85817-a035-4e1d-af44-8eb528737e25.png)
+
+````
+entity: media_player.media
+template:
+  - conditional_media
+  - icon_monitors
+type: custom:button-card
+````
+
+<details>
+<summary> Click here to show more Examples </summary>
+
 
 ## Homekit Light Lamp
 
@@ -83,18 +96,6 @@ template:
 type: custom:button-card
 ````
 
-## Homekit Conditional Media
-
-![image](https://user-images.githubusercontent.com/64064679/169297548-93ab71c2-8e69-4ae9-9d0e-c07456a30450.png)
-![image](https://user-images.githubusercontent.com/64064679/169297971-2da85817-a035-4e1d-af44-8eb528737e25.png)
-
-````
-entity: media_player.media
-template:
-  - conditional_media
-  - icon_monitors
-type: custom:button-card
-````
 
 ## Homekit Media Spotify
 
