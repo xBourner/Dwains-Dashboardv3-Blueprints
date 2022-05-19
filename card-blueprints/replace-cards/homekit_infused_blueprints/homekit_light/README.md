@@ -230,8 +230,8 @@ template:
 type: custom:button-card
 ````
 
-![image](https://user-images.githubusercontent.com/64064679/169305534-cbcb0ffb-f5e1-4137-81bd-3cb3fdd17704.png)
-![image](https://user-images.githubusercontent.com/64064679/169306067-0ce2105b-b37e-4824-b779-fff39f2972e4.png)
+![image](https://user-images.githubusercontent.com/64064679/169307655-f0286012-fb70-4ef7-8e75-46f591490ee1.png)
+![image](https://user-images.githubusercontent.com/64064679/169307545-0a64cca9-3e9c-4144-9226-f794cc174056.png)
 
 ````
 entity: entity.entity
@@ -241,8 +241,8 @@ template:
 type: custom:button-card
 ````
 
-![image](https://user-images.githubusercontent.com/64064679/169305569-3df965d2-f3b1-4033-891c-762afbce9412.png)
-![image](https://user-images.githubusercontent.com/64064679/169306122-87651696-2d0a-455e-a4e7-9c4a72887639.png)
+![image](https://user-images.githubusercontent.com/64064679/169307693-5a19dd25-0b61-4784-a005-8ae624e4075b.png)
+![image](https://user-images.githubusercontent.com/64064679/169307582-ea6a84a3-18e4-42a9-85cd-341197cce1bf.png)
 
 ````
 entity: entity.entity
