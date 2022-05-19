@@ -15,8 +15,9 @@ To use the button card templates install the content from homekit_style_template
 <br>Add "/local/vanilla-tilt.js" as a ressource in HA if you want a tilt effect.
 <br>Make sure to restart Home Assistant after you copied all files.
 
-After you did all that you can add templates in your custom button card.
-<br>For templates look in the folders above. Screenshots and examples will be there.
+After you did all that you can add templates in your custom button card in Dwains Dashboard.
+<br> You can also use the replace cards. Screenshots and Code Examples are shown below.
+
 
 ### Installation: 
   
