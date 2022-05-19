@@ -2,7 +2,7 @@
 
 
 <br>![image](https://user-images.githubusercontent.com/64064679/169295749-fa14e0be-6150-4f83-b274-8415285f57fa.png)
-![image](https://user-images.githubusercontent.com/64064679/167849030-3403038e-7b3b-4901-a824-d96ce060c69e.png)
+![image](https://user-images.githubusercontent.com/64064679/169295985-cfe99fcd-c05f-45e2-aeeb-dd9c1f9ba128.png)
 
 ````
 entity: light.light
@@ -15,7 +15,7 @@ type: custom:button-card
 ### Homekit Light Lamp
 
 <br>![image](https://user-images.githubusercontent.com/64064679/169295904-fdf45aa6-cd7d-4b2c-ac21-d38451025448.png)
-![image](https://user-images.githubusercontent.com/64064679/167849079-ca713f28-65fb-4c7f-8bb3-5a523f9fd656.png)
+![image](https://user-images.githubusercontent.com/64064679/169296120-3e38de47-6cbc-423b-911c-f6e97b1566c2.png)
 
 ````
 entity: light.light
@@ -28,7 +28,7 @@ type: custom:button-card
 ### Homekit Light Spot
 
 <br>![image](https://user-images.githubusercontent.com/64064679/169295851-7ce62c8d-bdd5-487f-be82-bfb058202579.png)
-![image](https://user-images.githubusercontent.com/64064679/167849207-6db4190a-5330-4c04-b927-3ff39f3662c5.png)
+![image](https://user-images.githubusercontent.com/64064679/169296065-36427428-45e4-43dc-be55-5650b83d8d28.png)
 
 ````
 entity: light.light
@@ -41,7 +41,7 @@ type: custom:button-card
 ### Homkit Light Shade
 
 <br>![image](https://user-images.githubusercontent.com/64064679/169295802-ad1364df-c8a1-4000-928a-4700c875a7e7.png)
-![image](https://user-images.githubusercontent.com/64064679/167849255-c549513b-c102-4239-a1fa-5f51a13307e5.png)
+![image](https://user-images.githubusercontent.com/64064679/169296027-8e893f79-4719-464d-a0bd-94a278d01c5e.png)
 
 ````
 entity: light.light
