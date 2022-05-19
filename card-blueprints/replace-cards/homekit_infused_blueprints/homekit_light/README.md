@@ -2,7 +2,7 @@
 
 
 <br>![image](https://user-images.githubusercontent.com/64064679/169295749-fa14e0be-6150-4f83-b274-8415285f57fa.png)
-![image](https://user-images.githubusercontent.com/64064679/169295985-cfe99fcd-c05f-45e2-aeeb-dd9c1f9ba128.png)
+![image](https://user-images.githubusercontent.com/64064679/169296212-dec38c21-d0c4-4672-a2ca-45f500f3bebe.png)
 
 ````
 entity: light.light
