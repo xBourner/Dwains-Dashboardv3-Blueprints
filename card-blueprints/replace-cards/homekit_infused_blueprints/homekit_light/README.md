@@ -110,3 +110,13 @@ template:
 type: custom:button-card
 ````
 
+![image](https://user-images.githubusercontent.com/64064679/169302785-7bc27ab8-db2c-4f32-b6f4-09bddbe127ba.png)
+![image](https://user-images.githubusercontent.com/64064679/169303222-84ff3e7d-a6cc-44cd-87e6-5dd3951c3c5e.png)
+
+````
+entity: person.person
+template:
+  - person
+type: custom:button-card
+````
+
