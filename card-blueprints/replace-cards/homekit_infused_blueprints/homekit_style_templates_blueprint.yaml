@@ -112,6 +112,32 @@ button_card_templates:
                 ? 'rgba(255, 255, 255, 0.8)'
                 : 'rgba(115, 115, 115, 0.2)';
             ]]]
+            
+  base_info:
+    custom_fields:
+      circle: "[[[\n  if (entity) {\n    let time = c => {\n      let s = (c/1e3), m\
+        \ = (c/6e4), h = (c/36e5), d = (c/864e5);\n      return s < 60 ? parseInt(s)\
+        \ + 's' : m < 60 ? parseInt(m) + 'm' : h < 24 ? parseInt(h) + 'h' : parseInt(d)\
+        \ + 'd';\n    },\n    last_changed = states[variables.retain] == null || states[variables.retain].state\
+        \ == 'unavailable'\n      ? time(Date.now() - Date.parse(entity.last_changed))\n\
+        \      : time(Date.now() - Date.parse(states[variables.retain].state)),\n  \
+        \  stroke = variables.state === 'on'\n      ? '#b2b2b2'\n      : 'none',\n\
+        \    fill = variables.state !== 'on'\n      ? 'rgba(255,255,255,0.04)'\n \
+        \     : 'none';\n    return `\n      <svg viewBox=\"0 0 50 50\">\n        <circle\
+        \ cx=\"25\" cy=\"25\" r=\"20.5\" stroke=\"${stroke}\" stroke-width=\"1.5\" fill=\"\
+        ${fill}\" />\n        <text x=\"50%\" y=\"54%\" fill=\"#8d8e90\" font-size=\"\
+        14\" text-anchor=\"middle\" alignment-baseline=\"middle\" dominant-baseline=\"\
+        middle\">${last_changed}</text>\n      </svg>\n    `;\n  }\n]]]\n"
+      icon: "[[[\n  return entity && variables.entity_picture\n    ? `<img src=\"${variables.entity_picture}\"\
+        \ width=\"100%\">`\n    : null;\n]]]\n"
+    tap_action:
+      action: more-info    
+    hold_action:
+      action: none
+    template:
+    - base
+    - circle
+    triggers_update: sensor.time              
 
   extra_styles:
     extra_styles: |
@@ -2036,8 +2062,7 @@ button_card_templates:
         - margin-left: -6px
         - margin-top: -1px
   
-  
-  icon_strip: 
+  icon_strip_alternate: 
     styles:
       custom_fields:
         icon:
@@ -2082,5 +2107,25 @@ button_card_templates:
         fill="rgb(158,160,162)" stroke="none" stroke-width="1"/></g><g
         id="ei7lu4mye7q4"><path id="ei7lu4mye7q5"
         d="M11.483000,10.234000L5.121000,11.943000L12.637000,13.956000L18.998000,12.247000L11.483000,10.234000Z"
-        fill="rgb(95,98,103)" stroke="none" stroke-width="1"/></g></svg>'; ]]]        
-        
+        fill="rgb(95,98,103)" stroke="none" stroke-width="1"/></g></svg>'; ]]]
+  
+  icon_strip: 
+    styles:
+      custom_fields:
+        icon:
+          - width: 55px
+    custom_fields:
+      icon: >       
+        [[[ if (entity.state === 'on') return '<svg viewBox="0 0 24 24" fill="var(--light-color)">
+        <style><![CDATA[#icon {
+        animation-name: bouncein;
+        animation-duration: 1000ms;  }
+        @keyframes bouncein {0% {opacity: 0;transform: scale3d(0.3, 0.3, 0.3);} 
+        20% {transform: scale3d(1.1, 1.1, 1.1);}
+        40% {transform: scale3d(0.9, 0.9, 0.9);}
+        60% {opacity: 1;transform: scale3d(1.03, 1.03, 1.03);}
+        80% {transform: scale3d(0.97, 0.97, 0.97);}
+        to {opacity: 1;transform: scale3d(1, 1, 1);}}]]>
+        </style><path id="icon" d="M6.328 12.5c.406-.086.805.172.895.578s-.172.801-.574.891-.805-.172-.895-.574.172-.805.574-.895m3.668-.793c.402-.086.805.172.891.574s-.168.805-.574.895a.75.75 0 1 1-.316-1.469m3.664-.789c.406-.09.805.168.891.57a.75.75 0 0 1-.574.895c-.402.086-.805-.172-.891-.574s.168-.805.574-.891m3.664-.793a.75.75 0 0 1 .895.574c.086.402-.172.805-.574.891s-.805-.168-.895-.574a.75.75 0 0 1 .574-.891m-9.32 5.355l11.102-2.398c.809-.172 1.324-.973 1.148-1.781-.418-1.937-2.328-3.168-4.262-2.75L4.887 10.945a1.5 1.5 0 0 0-1.148 1.781 3.59 3.59 0 0 0 4.266 2.754M18.75 19.5a.75.75 0 1 1 0-1.5.75.75 0 1 1 0 1.5m-3.75 0a.75.75 0 1 1 0-1.5.75.75 0 1 1 0 1.5m-3.75 0a.75.75 0 1 1 0-1.5.75.75 0 1 1 0 1.5m-3.75 0a.75.75 0 1 1 0-1.5.75.75 0 1 1 0 1.5m12.75-3H6.75c-3 0-3.75-2.25-3.75-3v3.75A3.75 3.75 0 0 0 6.75 21h13.5a.75.75 0 0 0 .75-.75v-3a.75.75 0 0 0-.75-.75M16.5 6a.75.75 0 1 1 0-1.5.75.75 0 1 1 0 1.5m-3.75 0a.75.75 0 1 1 0-1.5.75.75 0 1 1 0 1.5M9 6a.75.75 0 1 1 0-1.5A.75.75 0 1 1 9 6M5.25 6a.75.75 0 1 1 0-1.5.75.75 0 1 1 0 1.5m12-3H3.75a.75.75 0 0 0-.75.75v3a.75.75 0 0 0 .75.75h13.5c3 0 3.75 2.25 3.75 3V6.75A3.75 3.75 0 0 0 17.25 3"/></svg> '
+        ;   else return '<svg viewBox="0 0 24 24" fill="rgb(95,98,103)"><path d="M6.328 12.5c.406-.086.805.172.895.578s-.172.801-.574.891-.805-.172-.895-.574.172-.805.574-.895m3.668-.793c.402-.086.805.172.891.574s-.168.805-.574.895a.75.75 0 1 1-.316-1.469m3.664-.789c.406-.09.805.168.891.57a.75.75 0 0 1-.574.895c-.402.086-.805-.172-.891-.574s.168-.805.574-.891m3.664-.793a.75.75 0 0 1 .895.574c.086.402-.172.805-.574.891s-.805-.168-.895-.574a.75.75 0 0 1 .574-.891m-9.32 5.355l11.102-2.398c.809-.172 1.324-.973 1.148-1.781-.418-1.937-2.328-3.168-4.262-2.75L4.887 10.945a1.5 1.5 0 0 0-1.148 1.781 3.59 3.59 0 0 0 4.266 2.754M18.75 19.5a.75.75 0 1 1 0-1.5.75.75 0 1 1 0 1.5m-3.75 0a.75.75 0 1 1 0-1.5.75.75 0 1 1 0 1.5m-3.75 0a.75.75 0 1 1 0-1.5.75.75 0 1 1 0 1.5m-3.75 0a.75.75 0 1 1 0-1.5.75.75 0 1 1 0 1.5m12.75-3H6.75c-3 0-3.75-2.25-3.75-3v3.75A3.75 3.75 0 0 0 6.75 21h13.5a.75.75 0 0 0 .75-.75v-3a.75.75 0 0 0-.75-.75M16.5 6a.75.75 0 1 1 0-1.5.75.75 0 1 1 0 1.5m-3.75 0a.75.75 0 1 1 0-1.5.75.75 0 1 1 0 1.5M9 6a.75.75 0 1 1 0-1.5A.75.75 0 1 1 9 6M5.25 6a.75.75 0 1 1 0-1.5.75.75 0 1 1 0 1.5m12-3H3.75a.75.75 0 0 0-.75.75v3a.75.75 0 0 0 .75.75h13.5c3 0 3.75 2.25 3.75 3V6.75A3.75 3.75 0 0 0 17.25 3"/></svg> '
+        ; ]]]
