@@ -43,6 +43,8 @@ button_card_templates:
         [[[ return entity === undefined || ['playing', 'paused'].indexOf(entity.state) !== -1; ]]]
       media_off: >
         [[[ return entity === undefined || ['off',  'idle', 'standby', 'unknown', 'unavailable'].indexOf(entity.state) !== -1; ]]]
+      climate_on: >
+        [[[ return entity === undefined || ['heat', 'cool', 'dry', 'heat_cool', 'fan_only'].indexOf(entity.state) !== -1; ]]]        
       entity_picture: >
         [[[ return entity === undefined || entity.attributes.entity_picture; ]]]
       timeout: >
@@ -324,34 +326,40 @@ button_card_templates:
     show_name: true
     show_current_temperature: true
     show_control: true
+    state_display: '[[[ if (entity.attributes.hvac_action === ''heating'' ) { return
+      variables.translate_heating; } if (entity.attributes.hvac_action === ''idle'')
+      { return variables.translate_idle; } ]]]
+  
+      '  
     state:
       - operator: template
         value: >
-          [[[ return (states[entity.entity_id].attributes.preset_mode == 'none') && (states[entity.entity_id].state == 'heat') ]]]
+          [[[ return  variables.climate_on  || (states[entity.entity_id].attributes.hvac_action == 'heating') 
+          ]]]
         styles:
           card: [background-color: 'rgba(255, 255, 255, 0.8)']
           name: [color: 'rgba(0, 0, 0, 0.6)']
           state: [color: 'rgba(0, 0, 0, 0.6)']
       - operator: template
         value:  >
-          [[[ return (states[entity.entity_id].attributes.preset_mode == 'Full Power') ]]]
+          [[[ return (states[entity.entity_id].state == 'Full Power') ]]]
         styles:
           card: [background-color: 'rgba(227, 56, 18, 0.4)']
     custom_fields:
       icon: >
         [[[ { 
         const temperature = entity.attributes.current_temperature; 
-        const stroke_color = entity.state === 'heat' ? '#b2b2b2' : '#313638'; 
-        const fill_color = entity.state === 'heat' ? '#00ba32' : '#FFFFFF08'; 
+        const stroke_color = '#b2b2b2'; 
+        const fill_color = entity.attributes.hvac_action === 'heating' || variables.climate_on ? '#00ba32' : '#FFFFFF08';
         const radius = 28; 
         return `<svg viewBox="0 0 60 60"><circle cx="30" cy="30" r="${radius}" stroke="${stroke_color}" stroke-width="1.5" fill="${fill_color}" style=" 
         transform:rotate(-90deg); transform-origin: 50% 50%;"/> 
         <text x="50%" y="54%" fill="#f7f8fa" font-size="18" text-anchor="middle" alignment-baseline="middle">${temperature}<tspan font-size="16">°</tspan></text></svg>`; } ]]]        
       circle: >
-        [[[ if (entity.state === 'heat' && entity.attributes.temperature) {
+        [[[ if ((variables.climate_on && entity.attributes.temperature) || (entity.attributes.hvac_action === 'heating' && entity.attributes.temperature)) {
         const temperature = entity.attributes.temperature; 
-        const stroke_color = entity.state === 'heat' ? '#b2b2b2' : '#313638';
-        const fill_color = entity.state === 'heat' ? 'none' : '#FFFFFF08'; 
+        const stroke_color = '#b2b2b2';
+        const fill_color = 'none'; 
         const radius = 25; 
         return `<svg viewBox="0 0 60 60"><circle cx="30" cy="30" r="${radius}" stroke="${stroke_color}" stroke-width="3" fill="${fill_color}" style=" 
         transform: rotate(-90deg); transform-origin: 50% 50%;"/> 
@@ -368,59 +376,7 @@ button_card_templates:
         icon:
           - width: 60px
           - margin-left: 3px
-          - margin-top: -5px          
- 
-  climate_hvac:
-    template:
-      - base
-    show_state: true
-    show_icon: false
-    show_name: true
-    show_current_temperature: true
-    show_control: true
-    state_display: >
-        [[[ if (entity.attributes.hvac_action === 'heating' ) { return variables.translate_heating; }
-        if (entity.attributes.hvac_action === 'idle') { return variables.translate_idle; } ]]]
-    state:
-      - operator: template
-        value: >
-          [[[ return (states[entity.entity_id].attributes.hvac_action == 'heating') ]]]
-        styles:
-          card: [background-color: 'rgba(255, 255, 255, 0.8)']
-          name: [color: 'rgba(0, 0, 0, 0.6)']
-          state: [color: 'rgba(0, 0, 0, 0.6)']
-    custom_fields:
-      icon: >
-        [[[ {
-        const temperature = entity.attributes.current_temperature;
-        const stroke_color = entity.attributes.hvac_action === 'heating' ? '#b2b2b2' : '#313638';
-        const fill_color = entity.attributes.hvac_action === 'heating' ? '#00ba32' : '#FFFFFF08';
-        const radius = 28;
-        return `<svg viewBox="0 0 60 60"><circle cx="30" cy="30" r="${radius}" stroke="${stroke_color}" stroke-width="1.5" fill="${fill_color}" style="
-        transform: rotate(-90deg); transform-origin: 50% 50%; " />
-        <text x="50%" y="54%" fill="#f7f8fa" font-size="18" text-anchor="middle" alignment-baseline="middle">${temperature}<tspan font-size="15">°</tspan></text></svg>`; } ]]]
-      circle: >
-        [[[ if (entity.attributes.hvac_action === 'heating' && entity.attributes.temperature) {
-        const temperature = entity.attributes.temperature;
-        const stroke_color = entity.attributes.hvac_action === 'heating' ? '#b2b2b2' : '#313638';
-        const fill_color = entity.attributes.hvac_action === 'heating' ? 'none' : '#FFFFFF';
-        const radius = 25; const circumference = radius * 2 * Math.PI;
-        return `<svg viewBox="0 0 60 60"><circle cx="30" cy="30" r="${radius}" stroke="${stroke_color}" stroke-width="3" fill="${fill_color}" fill_opacity="1.0" style="
-        transform: rotate(-90deg); transform-origin: 50% 50%; stroke-dasharray: ${circumference}; stroke-dashoffset: "100";"/>
-        <text x="50%" y="54%" fill="#8d8e90" font-size="17" text-anchor="middle" alignment-baseline="middle">${temperature}<tspan font-size="15">°</tspan></text></svg>`; } ]]]   
-    styles:
-      card:
-        - color: 'rgba(255, 255, 255, 0.3)'
-      custom_fields:
-        icon:
-          - width: 60px
-          - margin-left: 3px
-          - margin-top: -5px
-        circle:
-          - width: 60px
-          - justify-self: end
-          - margin-top: -5px
-          - margin-right: 3px          
+          - margin-top: -5px         
   
   #################################################
   #                                               #
