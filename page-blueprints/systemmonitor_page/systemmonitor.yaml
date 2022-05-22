@@ -7,6 +7,7 @@ blueprint:
   - bar-card
   - stack-in-card
   - fold-entity-row
+  - restriction-card
   description: Systemmonitor page by Bourner
   name: Systemmonitor Page Blueprint
   type: page
