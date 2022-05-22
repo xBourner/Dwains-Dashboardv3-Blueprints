@@ -75,6 +75,7 @@ button_card_templates:
       action: toggle
       haptic: medium
     hold_action:
+      action: more-info
       haptic: success
     styles:
       grid:
@@ -132,8 +133,6 @@ button_card_templates:
         \ width=\"100%\">`\n    : null;\n]]]\n"
     tap_action:
       action: more-info    
-    hold_action:
-      action: none
     template:
     - base
     - circle
@@ -418,72 +417,6 @@ button_card_templates:
     variables:
       circle_input: >
         [[[ return entity === undefined || Math.round(entity.attributes.brightness / 2.54); ]]]
-    hold_action:
-      action: fire-dom-event
-      browser_mod:
-        command: popup
-        title: >
-          [[[ return entity === undefined || entity.attributes.friendly_name; ]]]
-        card:
-          type: custom:light-popup-card
-          entity: >
-            [[[ return variables.entity_id; ]]]
-          icon: none
-          fullscreen: false
-          brightnessWidth: 130px
-          brightnessHeight: 360px
-          borderRadius: 1.7em
-          sliderColor: '#c7c7c7'
-          sliderTrackColor: rgba(25, 25, 25, 0.9)
-          displayType: slider
-          actionSize: 4.5em
-          actionsInARow: 2
-          actions:
-            - action: call-service
-              service: light.turn_on
-              color: '#d8d9e1'
-              service_data:
-                entity_id: >
-                  [[[ return variables.entity_id; ]]]
-                color_temp: 153
-            - action: call-service
-              service: light.turn_on
-              color: '#d5b08d'
-              service_data:
-                entity_id: >
-                  [[[ return variables.entity_id; ]]]
-                color_temp: 326
-            - action: call-service
-              service: light.turn_on
-              color: '#ce944b'
-              service_data:
-                entity_id: >
-                  [[[ return variables.entity_id; ]]]
-                color_temp: 500
-            - action: fire-dom-event
-              image: >-
-                data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 
-                50 50"%3E%3Cstyle%3Esvg%7Bbackground:radial-gradient(circle,rgba(255,255,
-                255,1) 0%25,rgba(255,255,255,0) 80%25),conic-gradient(%237827e6,%23e622e7,
-                %23e40588,%23e41919,%23e5691e,%23e8e22e,%237de629,%2334e828,%2333e75c,
-                %2334e8e0,%23207de5,%231227e5,%237827e6)%7D%3C/style%3E%3C/svg%3E
-              browser_mod:
-                command: popup
-                title: >
-                  [[[ return entity === undefined || entity.attributes.friendly_name; ]]]
-                card:
-                  type: custom:light-entity-card
-                  entity: >
-                    [[[ return variables.entity_id; ]]]
-                  brightness: true
-                  color_temp: true
-                  white_value: true
-                  full_width_sliders: false
-                  hide_header: true
-                  show_slider_percent: true
-                  smooth_color_wheel: true
-                  persist_features: true
-                  consolidate_entities: true
 
   #################################################
   #                                               #
@@ -498,8 +431,6 @@ button_card_templates:
     triggers_update: sensor.time
     tap_action:
       action: more-info    
-    hold_action:
-      action: none
     styles:
       custom_fields:
         icon:
@@ -547,6 +478,8 @@ button_card_templates:
   #################################################
 
   base_media:
+    hold_action:
+      action: more-info
     tap_action:
       action: >
         [[[
@@ -560,8 +493,6 @@ button_card_templates:
           [[[
             return variables.entity_id;
           ]]]
-    double_tap_action:
-      action: more-info
     styles:
       card:
         - color: >
@@ -688,9 +619,7 @@ button_card_templates:
           return output;
         }
         return variables.translate_unknown;
-      ]]]
-    double_tap_action:
-      action: more-info      
+      ]]] 
     tap_action:
       action: call-service
       service: media_player.media_play_pause
