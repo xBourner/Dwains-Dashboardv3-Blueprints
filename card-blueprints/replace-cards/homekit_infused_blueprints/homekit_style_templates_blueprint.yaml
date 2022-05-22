@@ -44,7 +44,7 @@ button_card_templates:
       media_off: >
         [[[ return entity === undefined || ['off',  'idle', 'standby', 'unknown', 'unavailable'].indexOf(entity.state) !== -1; ]]]
       climate_on: >
-        [[[ return entity === undefined || ['heat', 'cool', 'dry', 'heat_cool', 'fan_only'].indexOf(entity.state) !== -1; ]]]        
+        [[[ return entity === undefined || ['on', 'heat', 'cool', 'dry', 'heat_cool', 'fan_only'].indexOf(entity.state) !== -1; ]]]        
       entity_picture: >
         [[[ return entity === undefined || entity.attributes.entity_picture; ]]]
       timeout: >
