@@ -326,8 +326,8 @@ button_card_templates:
     show_name: true
     show_current_temperature: true
     show_control: true
-    state_display: '[[[ if (entity.attributes.hvac_action === ''heating'' ) { return
-      variables.translate_heating; } if (entity.attributes.hvac_action === ''idle'')
+    state_display: '[[[ if (entity.attributes.hvac_action === ''heating'' && entity.state === ''auto'') { return
+      variables.translate_heating; } if (entity.attributes.hvac_action === ''idle'' && entity.state === ''auto'')
       { return variables.translate_idle; } ]]]
   
       '  
