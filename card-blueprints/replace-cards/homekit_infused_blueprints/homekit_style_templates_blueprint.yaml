@@ -136,6 +136,43 @@ button_card_templates:
     - circle
     triggers_update: sensor.time              
 
+  graph:
+    custom_fields:
+      graph:
+        card:
+          color_thresholds:
+          - color: '#f39c12'
+            value: 15
+          - color: '#d35400'
+            value: 20
+          - color: '#c0392b'
+            value: 25
+          entities:
+            - "[[[ return entity.entity_id ]]]"
+          font_size: 75
+          line_color: blue
+          line_width: 4
+          show:
+            icon: false
+            name: false
+            state: false
+          style: |
+            ha-card {
+              --ha-card-background: "rgba(0, 0, 0, 0.3)";
+              box-shadow: none;
+              color: var(--primary-color);
+            }
+          type: custom:mini-graph-card
+    styles:
+      custom_fields:
+        graph:
+          - top: 49%
+          - left: 0%
+          - width: 100%
+          - position: absolute
+    template:
+      - base
+
   extra_styles:
     extra_styles: |
       [[[
