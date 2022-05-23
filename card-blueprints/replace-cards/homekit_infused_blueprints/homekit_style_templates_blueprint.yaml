@@ -130,9 +130,7 @@ button_card_templates:
         14\" text-anchor=\"middle\" alignment-baseline=\"middle\" dominant-baseline=\"\
         middle\">${last_changed}</text>\n      </svg>\n    `;\n  }\n]]]\n"
       icon: "[[[\n  return entity && variables.entity_picture\n    ? `<img src=\"${variables.entity_picture}\"\
-        \ width=\"100%\">`\n    : null;\n]]]\n"
-    tap_action:
-      action: more-info    
+        \ width=\"100%\">`\n    : null;\n]]]\n"  
     template:
     - base
     - circle
@@ -428,9 +426,7 @@ button_card_templates:
     template:
       - base
       - circle
-    triggers_update: sensor.time
-    tap_action:
-      action: more-info    
+    triggers_update: sensor.time    
     styles:
       custom_fields:
         icon:
