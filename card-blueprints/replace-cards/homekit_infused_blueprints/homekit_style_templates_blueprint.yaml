@@ -159,7 +159,7 @@ button_card_templates:
     styles:
       custom_fields:
         graph:
-          - top: 49%
+          - bottom: 0px
           - left: 0%
           - width: 100%
           - position: absolute
