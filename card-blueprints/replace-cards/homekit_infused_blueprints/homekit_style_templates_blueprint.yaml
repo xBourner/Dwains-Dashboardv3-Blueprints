@@ -140,13 +140,6 @@ button_card_templates:
     custom_fields:
       graph:
         card:
-          color_thresholds:
-          - color: '#f39c12'
-            value: 15
-          - color: '#d35400'
-            value: 20
-          - color: '#c0392b'
-            value: 25
           entities:
             - "[[[ return entity.entity_id ]]]"
           font_size: 75
